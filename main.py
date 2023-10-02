@@ -971,7 +971,7 @@ def imaging_study():
 
 	
 	pag.press("up", presses = 130)
-	# sleep(delay * 2)
+	sleep(delay * 2)
 	sleep(delay/10)
 
 	pag.moveTo(773, 401)
