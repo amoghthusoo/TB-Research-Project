@@ -6,9 +6,9 @@ import pyautogui as pag
 from time import sleep
 import csv
 
-delay = 12
+delay = 15
 offsetMode = True
-offsetValue = 3
+offsetValue = 14
 newFile = False
 
 if (not offsetMode):
