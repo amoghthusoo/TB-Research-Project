@@ -6,9 +6,9 @@ import pyautogui as pag
 from time import sleep
 import csv
 
-delay = 15
+delay = 12
 offsetMode = True
-offsetValue = 2
+offsetValue = 3
 newFile = False
 
 if (not offsetMode):
@@ -971,7 +971,7 @@ def imaging_study():
 
 	
 	pag.press("up", presses = 130)
-	sleep(delay * 2)
+	# sleep(delay * 2)
 	sleep(delay/10)
 
 	pag.moveTo(773, 401)
