@@ -8,7 +8,7 @@ import csv
 
 delay = 15
 offsetMode = True
-offsetValue = 14
+offsetValue = 6
 newFile = False
 
 if (not offsetMode):
