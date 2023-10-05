@@ -19,7 +19,16 @@ def imToString(coordinates):
 			config = "--psm 11")
 	return tesstr
 
-# pag.hotkey("alt", "tab")
+def containsBlack(coordinates):
+    cap = ImageGrab.grab(bbox = coordinates)
+    cap = cv2.resize(nm.array(cap), None, fx=1.8, fy=1.8, interpolation=cv2.INTER_CUBIC)
+    not_white_pixels = nm.sum(cap != 255)
+    if (not_white_pixels == 0):
+        return False
+    else:
+        return True
+
+pag.hotkey("alt", "tab")
 # sleep(delay/10)
 
 # pag.hotkey("ctrl", "f")
@@ -35,11 +44,9 @@ def imToString(coordinates):
 
 
 # sleep(3)
-print(pag.position())
+# print(pag.position())
 # print(imToString([639, 377, 665, 395]))
 # print(imToString([1285, 377, 1307, 395]))
-
-
 
 
 # img = Image.open("test.png")
@@ -50,4 +57,8 @@ print(pag.position())
 # not_white_pixels = nm.sum(img != 255)
 # print(not_white_pixels)
 
-# pag.hotkey("alt", "tab")
+
+
+print(containsBlack([933, 606, 956, 628]))
+
+pag.hotkey("alt", "tab")
