@@ -8,7 +8,7 @@ import csv
 
 delay = 15
 offsetMode = True
-offsetValue = 9
+offsetValue = 18
 newFile = False
 
 if (not offsetMode):
@@ -991,7 +991,10 @@ def imaging_study():
 	pag.write(str(attributes[0]))
 	sleep(delay/10)
 	pag.press("enter")
-	sleep(delay/10)	
+	sleep(delay/10)
+	pag.press("left")
+	sleep(delay/10)
+	pag.press("enter")
 	sleep(delay/10)
 	
 	for i in range(2):
@@ -1222,7 +1225,7 @@ def case_details():
 					sleep(delay)
 			
 			elif ("CR" in imToString(coOrdDict["modality4"]) and containsBlack(coOrdDict["hasReport4"])):
-				pag.press("tab", presses = 15)
+				pag.press("tab", presses = 16)
 				sleep(delay/10)
 				pag.press("enter")
 				sleep(delay/10)
@@ -1339,7 +1342,7 @@ def case_details():
 					sleep(delay)
 			
 			elif ("CR" in imToString(coOrdDict["modality4"])):
-				pag.press("tab", presses = 15)
+				pag.press("tab", presses = 16)
 				sleep(delay/10)
 				pag.press("enter")
 				sleep(delay/10)
