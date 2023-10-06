@@ -28,7 +28,7 @@ def containsBlack(coordinates):
     else:
         return True
 
-pag.hotkey("alt", "tab")
+# pag.hotkey("alt", "tab")
 # sleep(delay/10)
 
 # pag.hotkey("ctrl", "f")
@@ -44,7 +44,7 @@ pag.hotkey("alt", "tab")
 
 
 # sleep(3)
-# print(pag.position())
+print(pag.position())
 # print(imToString([639, 377, 665, 395]))
 # print(imToString([1285, 377, 1307, 395]))
 
@@ -59,6 +59,6 @@ pag.hotkey("alt", "tab")
 
 
 
-print(containsBlack([933, 606, 956, 628]))
+# print(containsBlack([933, 606, 956, 628]))
 
-pag.hotkey("alt", "tab")
+# pag.hotkey("alt", "tab")
