@@ -6,10 +6,11 @@ import pyautogui as pag
 from time import sleep
 import csv
 
-delay = 15
-offsetMode = False
-offsetValue = 18
+delay = 12
+offsetMode = True
+offsetValue = 5
 newFile = False
+includeImage = True
 
 if (not offsetMode):
 	offsetValue = 1
@@ -183,10 +184,13 @@ coOrdDict = {
 				"modality2" : [256, 606, 296, 628],
 				"modality3" : [256, 651, 296, 672],
 				"modality4" : [256, 695, 296, 716],
+				"modality5" : [256, 739, 296, 760],
+
 				"hasReport1" : [933, 562, 956, 584],
 				"hasReport2" : [933, 606, 956, 628],
 				"hasReport3" : [933, 651, 956, 672],
 				"hasReport4" : [933, 695, 956, 716],
+				"hasReport5" : [933, 739, 956, 760],
 				
 				"ULS_small_cavities" : [78, 511, 148, 530],
 				"ULS_medium_cavities" : [78, 567, 148, 586],
@@ -310,7 +314,8 @@ def imaging_study():
 
 	global attributes, flags
 
-	sleep(delay * 2)
+	# sleep(delay * 2)
+	sleep(delay)
 	
 	pag.hotkey("ctrl", "f")
 	sleep(delay/10)
@@ -979,36 +984,38 @@ def imaging_study():
 		attributes.append("null")
 
 	
-	pag.press("up", presses = 130)
-	# sleep(delay * 2)
-	sleep(delay/10)
+	if(includeImage):
+		pag.press("up", presses = 130)
+		# sleep(delay * 2)
+		sleep(delay/10)
 
 
-	while True:
+		while True:
 
-		if(	containsBlack(coOrdDict["checkRec1"]) and 
-	 		containsBlack(coOrdDict["checkRec2"]) and 
-			containsBlack(coOrdDict["checkRec3"]) and
-			containsBlack(coOrdDict["checkRec4"])):
-			break
-		
+			if(	containsBlack(coOrdDict["checkRec1"]) and 
+				containsBlack(coOrdDict["checkRec2"]) and 
+				containsBlack(coOrdDict["checkRec3"]) and
+				containsBlack(coOrdDict["checkRec4"])):
+				break
+			sleep(1)
+			
 
-	pag.moveTo(773, 401)
-	sleep(delay/10)
-	pag.rightClick()
-	sleep(delay/10)
-	pag.moveTo(794, 415)
-	sleep(delay/10)
-	pag.leftClick()
-	sleep(delay/2)
-	pag.write(str(attributes[0]))
-	sleep(delay/10)
-	pag.press("enter")
-	sleep(delay/10)
-	pag.press("left")
-	sleep(delay/10)
-	pag.press("enter")
-	sleep(delay/10)
+		pag.moveTo(773, 401)
+		sleep(delay/10)
+		pag.rightClick()
+		sleep(delay/10)
+		pag.moveTo(794, 415)
+		sleep(delay/10)
+		pag.leftClick()
+		sleep(delay/2)
+		pag.write(str(attributes[0]))
+		sleep(delay/10)
+		pag.press("enter")
+		sleep(delay/10)
+		pag.press("left")
+		sleep(delay/10)
+		pag.press("enter")
+		sleep(delay/10)
 	
 	for i in range(2):
 		pag.hotkey("alt", "left")
@@ -1265,6 +1272,36 @@ def case_details():
 					pag.press("enter")
 					sleep(delay/10)
 					sleep(delay)
+			
+			elif ("CR" in imToString(coOrdDict["modality5"]) and containsBlack(coOrdDict["hasReport5"])):
+				pag.press("tab", presses = 17)
+				sleep(delay/10)
+				pag.press("enter")
+				sleep(delay/10)
+				sleep(delay)
+				# sleep(delay * 3)
+				imaging_study()
+
+				if (offsetValue != 21):
+					pag.hotkey("ctrl", "f")
+					sleep(delay/10)
+					pag.write("registration date")
+					sleep(delay/10)
+					pag.hotkey("ctrl", "a")
+					sleep(delay/10)
+					pag.press("backspace")
+					sleep(delay/10)
+					pag.press("enter")
+					sleep(delay/10)
+					pag.press("esc")
+					sleep(delay/10)
+					
+					pag.press("tab", presses = 2 + 3 * j)
+					sleep(delay/10)
+					pag.press("enter")
+					sleep(delay/10)
+					sleep(delay)
+
 			elif ("CR" in imToString(coOrdDict["modality1"])):
 				pag.press("tab", presses = 13)
 				sleep(delay/10)
@@ -1356,6 +1393,35 @@ def case_details():
 			
 			elif ("CR" in imToString(coOrdDict["modality4"])):
 				pag.press("tab", presses = 16)
+				sleep(delay/10)
+				pag.press("enter")
+				sleep(delay/10)
+				sleep(delay)
+				# sleep(delay * 3)
+				imaging_study()
+
+				if (offsetValue != 21):
+					pag.hotkey("ctrl", "f")
+					sleep(delay/10)
+					pag.write("registration date")
+					sleep(delay/10)
+					pag.hotkey("ctrl", "a")
+					sleep(delay/10)
+					pag.press("backspace")
+					sleep(delay/10)
+					pag.press("enter")
+					sleep(delay/10)
+					pag.press("esc")
+					sleep(delay/10)
+					
+					pag.press("tab", presses = 2 + 3 * j)
+					sleep(delay/10)
+					pag.press("enter")
+					sleep(delay/10)
+					sleep(delay)
+
+			elif ("CR" in imToString(coOrdDict["modality5"])):
+				pag.press("tab", presses = 17)
 				sleep(delay/10)
 				pag.press("enter")
 				sleep(delay/10)
