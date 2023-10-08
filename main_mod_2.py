@@ -8,7 +8,7 @@ import csv
 
 delay = 12
 offsetMode = True
-offsetValue = 5
+offsetValue = 16
 newFile = False
 includeImage = True
 
@@ -344,6 +344,10 @@ def imaging_study():
 	pag.leftClick()
 	sleep(delay/10)
 
+	pag.moveTo(369, 386)
+	pag.leftClick()
+	sleep(delay/10)
+
 	try:
 		ULS_small_cavities = imToString(coOrdDict["ULS_small_cavities"]).split()[0][0:-1]
 		attributes.append(ULS_small_cavities)
@@ -548,6 +552,10 @@ def imaging_study():
 	sleep(delay/10)
 	pag.moveTo(1296, 386)
 	sleep(delay/10)
+	pag.leftClick()
+	sleep(delay/10)
+
+	pag.moveTo(369, 386)
 	pag.leftClick()
 	sleep(delay/10)
 
@@ -757,6 +765,10 @@ def imaging_study():
 	sleep(delay/10)
 	pag.moveTo(1296, 386)
 	sleep(delay/10)
+	pag.leftClick()
+	sleep(delay/10)
+
+	pag.moveTo(369, 386)
 	pag.leftClick()
 	sleep(delay/10)
 
