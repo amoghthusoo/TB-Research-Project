@@ -7,8 +7,8 @@ from time import sleep
 import csv
 
 delay = 12
-offsetMode = True
-offsetValue = 20
+offsetMode = False
+offsetValue = 19
 newFile = False
 includeImage = True
 
@@ -310,9 +310,57 @@ coOrdDict = {
 pag.hotkey("alt", "tab")
 sleep(delay/10)
 
-def imaging_study():
+def imaging_study(hasReport = True):
 
 	global attributes, flags
+
+	if(not hasReport):
+
+		if(includeImage):
+		
+			# pag.press("up", presses = 130)
+			# sleep(delay * 2)
+			sleep(delay/10)
+
+			while True:
+
+				if(	containsBlack(coOrdDict["checkRec1"]) and 
+					containsBlack(coOrdDict["checkRec2"]) and 
+					containsBlack(coOrdDict["checkRec3"]) and
+					containsBlack(coOrdDict["checkRec4"])):
+					break
+				sleep(1)
+				
+
+			pag.moveTo(773, 401)
+			sleep(delay/10)
+			pag.rightClick()
+			sleep(delay/10)
+			pag.moveTo(794, 415)
+			sleep(delay/10)
+			pag.leftClick()
+			sleep(delay/2)
+			pag.write(str(attributes[0]))
+			sleep(delay/10)
+			pag.press("enter")
+			sleep(delay/10)
+			pag.press("left")
+			sleep(delay/10)
+			pag.press("enter")
+			sleep(delay/10)
+	
+		
+		for i in range(8, 96):
+			attributes.append("null")
+		for i in range(96, 102):
+			flags.append(False)
+		
+		for i in range(2):
+			pag.hotkey("alt", "left")
+			sleep(delay/10)
+
+		sleep(delay/10)
+		return
 
 	# sleep(delay * 2)
 	sleep(delay)
@@ -1167,7 +1215,9 @@ def case_details():
 			# except:
 			# 	pass
 			
-			if ("CR" in imToString(coOrdDict["modality1"]) and containsBlack(coOrdDict["hasReport1"])):
+			if (	("CR" in imToString(coOrdDict["modality1"]) or 
+	   				"XC" in imToString(coOrdDict["modality1"])) and 
+					containsBlack(coOrdDict["hasReport1"])):
 				pag.press("tab", presses = 13)
 				sleep(delay/10)
 				pag.press("enter")
@@ -1178,7 +1228,7 @@ def case_details():
 
 				# print("Breakpoint1")
 
-				if (offsetValue != 21):
+				if (j != 21):
 					pag.hotkey("ctrl", "f")
 					sleep(delay/10)
 					pag.write("registration date")
@@ -1198,7 +1248,9 @@ def case_details():
 					sleep(delay/10)
 					sleep(delay)
 
-			elif ("CR" in imToString(coOrdDict["modality2"]) and containsBlack(coOrdDict["hasReport2"])):
+			elif (	("CR" in imToString(coOrdDict["modality2"]) or 
+		 			"XC" in imToString(coOrdDict["modality2"])) and 
+					containsBlack(coOrdDict["hasReport2"])):
 				pag.press("tab", presses = 14)
 				sleep(delay/10)
 				pag.press("enter")
@@ -1207,7 +1259,7 @@ def case_details():
 				# sleep(delay * 3)
 				imaging_study()
 
-				if (offsetValue != 21):
+				if (j != 21):
 					pag.hotkey("ctrl", "f")
 					sleep(delay/10)
 					pag.write("registration date")
@@ -1227,7 +1279,9 @@ def case_details():
 					sleep(delay/10)
 					sleep(delay)
 
-			elif ("CR" in imToString(coOrdDict["modality3"]) and containsBlack(coOrdDict["hasReport3"])):
+			elif (	("CR" in imToString(coOrdDict["modality3"]) or
+		 			"XC" in imToString(coOrdDict["modality3"])) and 
+		 			containsBlack(coOrdDict["hasReport3"])):
 				pag.press("tab", presses = 15)
 				sleep(delay/10)
 				pag.press("enter")
@@ -1236,7 +1290,7 @@ def case_details():
 				# sleep(delay * 3)
 				imaging_study()
 
-				if (offsetValue != 21):
+				if (j != 21):
 					pag.hotkey("ctrl", "f")
 					sleep(delay/10)
 					pag.write("registration date")
@@ -1256,7 +1310,9 @@ def case_details():
 					sleep(delay/10)
 					sleep(delay)
 			
-			elif ("CR" in imToString(coOrdDict["modality4"]) and containsBlack(coOrdDict["hasReport4"])):
+			elif (	("CR" in imToString(coOrdDict["modality4"])  or
+		 			"XC" in imToString(coOrdDict["modality4"])) and 
+					containsBlack(coOrdDict["hasReport4"])):
 				pag.press("tab", presses = 16)
 				sleep(delay/10)
 				pag.press("enter")
@@ -1265,7 +1321,7 @@ def case_details():
 				# sleep(delay * 3)
 				imaging_study()
 
-				if (offsetValue != 21):
+				if (j != 21):
 					pag.hotkey("ctrl", "f")
 					sleep(delay/10)
 					pag.write("registration date")
@@ -1285,7 +1341,9 @@ def case_details():
 					sleep(delay/10)
 					sleep(delay)
 			
-			elif ("CR" in imToString(coOrdDict["modality5"]) and containsBlack(coOrdDict["hasReport5"])):
+			elif (	("CR" in imToString(coOrdDict["modality5"]) or
+		 			"XC" in imToString(coOrdDict["modality5"])) and 
+					containsBlack(coOrdDict["hasReport5"])):
 				pag.press("tab", presses = 17)
 				sleep(delay/10)
 				pag.press("enter")
@@ -1294,7 +1352,7 @@ def case_details():
 				# sleep(delay * 3)
 				imaging_study()
 
-				if (offsetValue != 21):
+				if (j != 21):
 					pag.hotkey("ctrl", "f")
 					sleep(delay/10)
 					pag.write("registration date")
@@ -1314,18 +1372,19 @@ def case_details():
 					sleep(delay/10)
 					sleep(delay)
 
-			elif ("CR" in imToString(coOrdDict["modality1"])):
+			elif (	"CR" in imToString(coOrdDict["modality1"]) or 
+		 			"XC" in imToString(coOrdDict["modality1"])):
 				pag.press("tab", presses = 13)
 				sleep(delay/10)
 				pag.press("enter")
 				sleep(delay/10)
 				sleep(delay)
 				# sleep(delay * 3)
-				imaging_study()
+				imaging_study(False)
 
 				# print("Breakpoint1")
 
-				if (offsetValue != 21):
+				if (j != 21):
 					pag.hotkey("ctrl", "f")
 					sleep(delay/10)
 					pag.write("registration date")
@@ -1345,16 +1404,17 @@ def case_details():
 					sleep(delay/10)
 					sleep(delay)
 
-			elif ("CR" in imToString(coOrdDict["modality2"])):
+			elif (	"CR" in imToString(coOrdDict["modality2"]) or 
+		 			"XC" in imToString(coOrdDict["modality2"])):
 				pag.press("tab", presses = 14)
 				sleep(delay/10)
 				pag.press("enter")
 				sleep(delay/10)
 				sleep(delay)
 				# sleep(delay * 3)
-				imaging_study()
+				imaging_study(False)
 
-				if (offsetValue != 21):
+				if (j != 21):
 					pag.hotkey("ctrl", "f")
 					sleep(delay/10)
 					pag.write("registration date")
@@ -1374,16 +1434,17 @@ def case_details():
 					sleep(delay/10)
 					sleep(delay)
 
-			elif ("CR" in imToString(coOrdDict["modality3"])):
+			elif (	"CR" in imToString(coOrdDict["modality3"]) or
+					"XC" in imToString(coOrdDict["modality3"])):
 				pag.press("tab", presses = 15)
 				sleep(delay/10)
 				pag.press("enter")
 				sleep(delay/10)
 				sleep(delay)
 				# sleep(delay * 3)
-				imaging_study()
+				imaging_study(False)
 
-				if (offsetValue != 21):
+				if (j != 21):
 					pag.hotkey("ctrl", "f")
 					sleep(delay/10)
 					pag.write("registration date")
@@ -1403,16 +1464,17 @@ def case_details():
 					sleep(delay/10)
 					sleep(delay)
 			
-			elif ("CR" in imToString(coOrdDict["modality4"])):
+			elif (	"CR" in imToString(coOrdDict["modality4"]) or 
+		 			"XC" in imToString(coOrdDict["modality4"])):
 				pag.press("tab", presses = 16)
 				sleep(delay/10)
 				pag.press("enter")
 				sleep(delay/10)
 				sleep(delay)
 				# sleep(delay * 3)
-				imaging_study()
+				imaging_study(False)
 
-				if (offsetValue != 21):
+				if (j != 21):
 					pag.hotkey("ctrl", "f")
 					sleep(delay/10)
 					pag.write("registration date")
@@ -1432,16 +1494,17 @@ def case_details():
 					sleep(delay/10)
 					sleep(delay)
 
-			elif ("CR" in imToString(coOrdDict["modality5"])):
+			elif (	"CR" in imToString(coOrdDict["modality5"]) or 
+		 			"XC" in imToString(coOrdDict["modality5"])):
 				pag.press("tab", presses = 17)
 				sleep(delay/10)
 				pag.press("enter")
 				sleep(delay/10)
 				sleep(delay)
 				# sleep(delay * 3)
-				imaging_study()
+				imaging_study(False)
 
-				if (offsetValue != 21):
+				if (j != 21):
 					pag.hotkey("ctrl", "f")
 					sleep(delay/10)
 					pag.write("registration date")
@@ -1471,7 +1534,7 @@ def case_details():
 				pag.hotkey("alt", "left")
 				sleep(delay/10)
 
-				if (offsetValue != 21):
+				if (j != 21):
 					pag.press("tab", presses = 3)
 					sleep(delay/10)
 					pag.press("enter")
@@ -1495,11 +1558,11 @@ def case_details():
 		offsetValue = 1
 
 	
-		# pag.press("down", presses = 10)
-		# sleep(delay/10)
-		# pag.moveTo(805, 562)
-		# sleep(delay/10)
-		# pag.leftClick()
+		pag.press("down", presses = 10)
+		sleep(delay/10)
+		pag.moveTo(805, 562)
+		sleep(delay/10)
+		pag.leftClick()
 		sleep(delay * 2)
 
 
