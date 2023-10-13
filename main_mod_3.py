@@ -6,8 +6,8 @@ import pyautogui as pag
 from time import sleep
 import csv
 
-delay = 12
-offsetMode = False
+delay = 15
+offsetMode = True
 offsetValue = 19
 newFile = False
 includeImage = True
