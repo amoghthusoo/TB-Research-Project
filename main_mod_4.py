@@ -8,7 +8,7 @@ import csv
 
 delay = 15
 offsetMode = True
-offsetValue = 21
+offsetValue = 9
 newFile = False
 includeImage = True
 
@@ -167,6 +167,15 @@ def containsBlack(coordinates):
     else:
         return True
 
+def containsWhite(coordinates):
+    cap = ImageGrab.grab(bbox = coordinates)
+    cap = cv2.resize(nm.array(cap), None, fx=1.8, fy=1.8, interpolation=cv2.INTER_CUBIC)
+    not_black_pixels = nm.sum(cap != 1)
+    if (not_black_pixels == 0):
+        return False
+    else:
+        return True
+
 def deleteSpaces(string):
     return string.replace(" ", "")
 
@@ -300,10 +309,10 @@ coOrdDict = {
 				"LLS_flag" : [639, 525, 665, 540],
 				"LRS_flag" : [1285, 525, 1307, 540],
 
-				"checkRec1" : [439, 403, 446, 411],
-				"checkRec2" : [1082, 406, 1091, 416],
-				"checkRec3" : [757, 371, 770, 384],
-				"checkRec4" : [759, 434, 773, 442]
+				"checkRec1" : [612, 273, 622, 283],
+				"checkRec2" : [880, 273, 890, 283],
+				"checkRec3" : [612, 542, 622, 552],
+				"checkRec4" : [880, 542, 890, 552]
 		    }
 
 
@@ -1052,10 +1061,10 @@ def imaging_study(hasReport = True):
 
 		while True:
 
-			if(	containsBlack(coOrdDict["checkRec1"]) and 
-				containsBlack(coOrdDict["checkRec2"]) and 
-				containsBlack(coOrdDict["checkRec3"]) and
-				containsBlack(coOrdDict["checkRec4"])):
+			if(	containsWhite(coOrdDict["checkRec1"]) or 
+				containsWhite(coOrdDict["checkRec2"]) or 
+				containsWhite(coOrdDict["checkRec3"]) or
+				containsWhite(coOrdDict["checkRec4"])):
 				break
 			sleep(1)
 			
