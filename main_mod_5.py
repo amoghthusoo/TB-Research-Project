@@ -7,8 +7,8 @@ from time import sleep
 import csv
 
 delay = 15
-offsetMode = True
-offsetValue = 7
+offsetMode = False
+offsetValue = 20
 newFile = False
 includeImage = True
 
