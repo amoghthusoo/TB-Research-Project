@@ -7,8 +7,8 @@ from time import sleep
 import csv
 
 delay = 15
-offsetMode = False
-offsetValue = 20
+offsetMode = True
+offsetValue = 12
 newFile = False
 includeImage = True
 
@@ -332,10 +332,9 @@ def imaging_study(hasReport = True):
 
 			while True:
 
-				if(	containsBlack(coOrdDict["checkRec1"]) and 
-					containsBlack(coOrdDict["checkRec2"]) and 
-					containsBlack(coOrdDict["checkRec3"]) and
-					containsBlack(coOrdDict["checkRec4"])):
+				if(	containsWhite(coOrdDict["checkRec1"]) and 
+					containsWhite(coOrdDict["checkRec2"]) 
+					):
 					break
 				sleep(1)
 				
