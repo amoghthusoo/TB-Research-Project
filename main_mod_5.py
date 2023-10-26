@@ -8,7 +8,7 @@ import csv
 
 delay = 15
 offsetMode = True
-offsetValue = 12
+offsetValue = 10
 newFile = False
 includeImage = True
 
