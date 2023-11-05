@@ -31,7 +31,7 @@ def containsBlack(coordinates):
 def containsWhite(coordinates):
     cap = ImageGrab.grab(bbox = coordinates)
     cap = cv2.resize(nm.array(cap), None, fx=1.8, fy=1.8, interpolation=cv2.INTER_CUBIC)
-    not_black_pixels = nm.sum(cap != 1)
+    not_black_pixels = nm.sum(cap != 0)
     if (not_black_pixels == 0):
         return False
     else:
@@ -48,7 +48,7 @@ def containsWhite(coordinates):
 #         print()
 	
         
-# pag.hotkey("alt", "tab")
+pag.hotkey("alt", "tab")
 # sleep(delay/10)
 
 # pag.hotkey("ctrl", "f")
@@ -64,9 +64,10 @@ def containsWhite(coordinates):
 
 
 # sleep(3)
-print(pag.position())
+# print(pag.position())
 # print(imToString([639, 377, 665, 395]))
 # print(imToString([1285, 377, 1307, 395]))
+# print(imToString([82, 76, 167, 108]).split()[0] == "Details")
 
 
 # img = Image.open("test.png")
@@ -81,8 +82,9 @@ print(pag.position())
 
 # print(containsBlack([933, 606, 956, 628]))
 
-# print(containsWhite([377, 259, 379, 261]))
+print(containsWhite([668, 255, 680, 575]))
 # print(containsWhite([549, 99, 551, 101]))
 # print(containsWhite([619, 313, 621, 315]))
 
-# pag.hotkey("alt", "tab")
+# pag.moveTo(680, 575)
+pag.hotkey("alt", "tab")

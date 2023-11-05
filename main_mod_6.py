@@ -7,8 +7,9 @@ from time import sleep
 import csv
 
 delay = 10
+stability_delay = 0.1
 offsetMode = True
-offsetValue = 15
+offsetValue = 20
 newFile = False
 includeImage = True
 
@@ -139,11 +140,12 @@ fields = [
 	"LRS_flag"
 
 ]
-csvfile = open("record.csv", appendMOde, newline = "")
-writer = csv.writer(csvfile)
 
-if (newFile):
-	writer.writerow(fields)
+# csvfile = open("record.csv", appendMOde, newline = "")
+# writer = csv.writer(csvfile)
+
+# if (newFile):
+# 	writer.writerow(fields)
 
 attributes = []
 flags = []
@@ -170,7 +172,7 @@ def containsBlack(coordinates):
 def containsWhite(coordinates):
     cap = ImageGrab.grab(bbox = coordinates)
     cap = cv2.resize(nm.array(cap), None, fx=1.8, fy=1.8, interpolation=cv2.INTER_CUBIC)
-    not_black_pixels = nm.sum(cap != 1)
+    not_black_pixels = nm.sum(cap != 1)		# CAUTION : cap != 1
     if (not_black_pixels == 0):
         return False
     else:
@@ -178,6 +180,18 @@ def containsWhite(coordinates):
 
 def deleteSpaces(string):
     return string.replace(" ", "")
+
+def halt_case_details():
+
+	while(True):
+
+		try:
+			if(imToString([82, 76, 167, 108]).split()[0] == "Details"):
+				break
+		except:
+			pass
+	
+	sleep(delay/5)
 
 coOrdDict = {
 	            "patient_id" : [102, 192, 165, 210],
@@ -370,18 +384,18 @@ def imaging_study(hasReport = True):
 		return
 
 	# sleep(delay * 2)
-	sleep(delay/2)
+	sleep(delay)
 	
 	pag.hotkey("ctrl", "f")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.write("upper left sextant")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.hotkey("ctrl", "a")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("backspace")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("esc")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	
 	flags.append(containsBlack(coOrdDict["ULS_flag"]))
 	flags.append(containsBlack(coOrdDict["URS_flag"]))
@@ -391,17 +405,17 @@ def imaging_study(hasReport = True):
 	flags.append(containsBlack(coOrdDict["LRS_flag"]))
 	
 	pag.moveTo(652, 386)
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.leftClick()
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.moveTo(1296, 386)
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.leftClick()
-	#sleep(delay/10)
+	sleep(stability_delay)
 
 	pag.moveTo(369, 386)
 	pag.leftClick()
-	#sleep(delay/10)
+	sleep(stability_delay)
 
 	try:
 		ULS_small_cavities = imToString(coOrdDict["ULS_small_cavities"]).split()[0][0:-1]
@@ -442,17 +456,17 @@ def imaging_study(hasReport = True):
 
 	
 	pag.hotkey("ctrl", "f")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.write("nodules")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.hotkey("ctrl", "a")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("backspace")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("esc")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("down", presses = 8)
-	#sleep(delay/10)
+	sleep(stability_delay)
 
 	try:
 		ULS_small_nodules = imToString(coOrdDict["ULS_small_nodules"]).split()[0][0:-1]
@@ -591,28 +605,28 @@ def imaging_study(hasReport = True):
 		attributes.append("null")
 
 	pag.hotkey("ctrl", "f")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.write("middle left sextant")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.hotkey("ctrl", "a")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("backspace")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("esc")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	
 	pag.moveTo(652, 385)
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.leftClick()
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.moveTo(1296, 386)
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.leftClick()
-	#sleep(delay/10)
+	sleep(stability_delay)
 
 	pag.moveTo(369, 386)
 	pag.leftClick()
-	#sleep(delay/10)
+	sleep(stability_delay)
 
 	try:
 		MLS_small_cavities = imToString(coOrdDict["MLS_small_cavities"]).split()[0][0:-1]
@@ -654,17 +668,17 @@ def imaging_study(hasReport = True):
 	
 
 	pag.hotkey("ctrl", "f")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.write("nodules")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.hotkey("ctrl", "a")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("backspace")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("esc")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("down", presses = 8)
-	#sleep(delay/10)
+	sleep(stability_delay)
 
 	try:
 		MLS_small_nodules = imToString(coOrdDict["MLS_small_nodules"]).split()[0][0:-1]
@@ -804,28 +818,28 @@ def imaging_study(hasReport = True):
 
 
 	pag.hotkey("ctrl", "f")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.write("lower left sextant")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.hotkey("ctrl", "a")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("backspace")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("esc")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	
 	pag.moveTo(652, 385)
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.leftClick()
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.moveTo(1296, 386)
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.leftClick()
-	#sleep(delay/10)
+	sleep(stability_delay)
 
 	pag.moveTo(369, 386)
 	pag.leftClick()
-	#sleep(delay/10)
+	sleep(stability_delay)
 
 	try:
 		LLS_small_cavities = imToString(coOrdDict["LLS_small_cavities"]).split()[0][0:-1]
@@ -866,17 +880,17 @@ def imaging_study(hasReport = True):
 
 
 	pag.hotkey("ctrl", "f")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.write("nodules")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.hotkey("ctrl", "a")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("backspace")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("esc")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("down", presses = 8)
-	#sleep(delay/10)
+	sleep(stability_delay)
 
 	try:
 		LLS_small_nodules = imToString(coOrdDict["LLS_small_nodules"]).split()[0][0:-1]
@@ -1016,15 +1030,15 @@ def imaging_study(hasReport = True):
 
 
 	pag.hotkey("ctrl", "f")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.write("overall characteristics")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.hotkey("ctrl", "a")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("backspace")
-	#sleep(delay/10)
+	sleep(stability_delay)
 	pag.press("esc")
-	#sleep(delay/10)
+	sleep(stability_delay)
 
 	try:
 		abnormal_volume = imToString(coOrdDict["abnormal_volume"]).split()[0][0:-1]
@@ -1052,7 +1066,8 @@ def imaging_study(hasReport = True):
 
 	
 	if(includeImage):
-		pag.press("up", presses = 130)
+		pag.press("home")
+		# pag.press("up", presses = 130)
 		# sleep(delay * 2)
 		sleep(delay/10)
 
@@ -1085,7 +1100,7 @@ def imaging_study(hasReport = True):
 	
 	for i in range(2):
 		pag.hotkey("alt", "left")
-		sleep(delay/10)
+		# sleep(delay/10)
 	
 	sleep(delay/10)
 
@@ -1099,35 +1114,35 @@ def case_details():
 
 		if (not offsetMode):
 			pag.hotkey("ctrl", "f")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.write("registration date")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.hotkey("ctrl", "a")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("backspace")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("esc")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("tab", presses = 2)
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("enter")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			sleep(delay)
 		else:
 			pag.hotkey("ctrl", "f")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.write("registration date")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.hotkey("ctrl", "a")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("backspace")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("esc")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("tab", presses = 2 + 3 * (offsetValue - 1))
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("enter")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			sleep(delay)
 
 
@@ -1165,17 +1180,17 @@ def case_details():
 				attributes.append("null")
 
 			pag.hotkey("ctrl", "f")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.write("biochemistry results")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.hotkey("ctrl", "a")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("backspace")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("enter")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("esc")
-			#sleep(delay/10)
+			sleep(stability_delay)
 
 			try:
 				glucose = imToString(coOrdDict["glucose"]).split()[0]
@@ -1196,17 +1211,17 @@ def case_details():
 				attributes.append("null")
 
 			pag.hotkey("ctrl", "f")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.write("imaging studies")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.hotkey("ctrl", "a")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("backspace")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("enter")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			pag.press("esc")
-			#sleep(delay/10)
+			sleep(stability_delay)
 			
 			# try:
 			# 	print(imToString(coOrdDict["modality1"]).split()[0])
@@ -1236,23 +1251,25 @@ def case_details():
 
 				if (j != 21):
 					pag.hotkey("ctrl", "f")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.write("registration date")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.hotkey("ctrl", "a")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("backspace")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("esc")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					
 					pag.press("tab", presses = 2 + 3 * j)
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
-					sleep(delay)
+					sleep(stability_delay)
+					
+					# sleep(delay)
+					halt_case_details()
 
 			elif (	("CR" in imToString(coOrdDict["modality2"]) or 
 		 			"XC" in imToString(coOrdDict["modality2"])) and 
@@ -1267,23 +1284,25 @@ def case_details():
 
 				if (j != 21):
 					pag.hotkey("ctrl", "f")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.write("registration date")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.hotkey("ctrl", "a")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("backspace")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("esc")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					
 					pag.press("tab", presses = 2 + 3 * j)
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
-					sleep(delay)
+					sleep(stability_delay)
+					
+					# sleep(delay)
+					halt_case_details()
 
 			elif (	("CR" in imToString(coOrdDict["modality3"]) or
 		 			"XC" in imToString(coOrdDict["modality3"])) and 
@@ -1298,23 +1317,25 @@ def case_details():
 
 				if (j != 21):
 					pag.hotkey("ctrl", "f")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.write("registration date")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.hotkey("ctrl", "a")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("backspace")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("esc")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					
 					pag.press("tab", presses = 2 + 3 * j)
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
-					sleep(delay)
+					sleep(stability_delay)
+					
+					# sleep(delay)
+					halt_case_details()
 			
 			elif (	("CR" in imToString(coOrdDict["modality4"])  or
 		 			"XC" in imToString(coOrdDict["modality4"])) and 
@@ -1329,23 +1350,25 @@ def case_details():
 
 				if (j != 21):
 					pag.hotkey("ctrl", "f")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.write("registration date")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.hotkey("ctrl", "a")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("backspace")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("esc")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					
 					pag.press("tab", presses = 2 + 3 * j)
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
-					sleep(delay)
+					sleep(stability_delay)
+					
+					# sleep(delay)
+					halt_case_details()
 			
 			elif (	("CR" in imToString(coOrdDict["modality5"]) or
 		 			"XC" in imToString(coOrdDict["modality5"])) and 
@@ -1360,23 +1383,25 @@ def case_details():
 
 				if (j != 21):
 					pag.hotkey("ctrl", "f")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.write("registration date")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.hotkey("ctrl", "a")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("backspace")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("esc")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					
 					pag.press("tab", presses = 2 + 3 * j)
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
-					sleep(delay)
+					sleep(stability_delay)
+					
+					# sleep(delay)
+					halt_case_details()
 
 			elif (	"CR" in imToString(coOrdDict["modality1"]) or 
 		 			"XC" in imToString(coOrdDict["modality1"])):
@@ -1392,23 +1417,25 @@ def case_details():
 
 				if (j != 21):
 					pag.hotkey("ctrl", "f")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.write("registration date")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.hotkey("ctrl", "a")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("backspace")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("esc")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					
 					pag.press("tab", presses = 2 + 3 * j)
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
-					sleep(delay)
+					sleep(stability_delay)
+					
+					# sleep(delay)
+					halt_case_details()
 
 			elif (	"CR" in imToString(coOrdDict["modality2"]) or 
 		 			"XC" in imToString(coOrdDict["modality2"])):
@@ -1422,23 +1449,25 @@ def case_details():
 
 				if (j != 21):
 					pag.hotkey("ctrl", "f")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.write("registration date")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.hotkey("ctrl", "a")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("backspace")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("esc")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					
 					pag.press("tab", presses = 2 + 3 * j)
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
-					sleep(delay)
+					sleep(stability_delay)
+					
+					# sleep(delay)
+					halt_case_details()
 
 			elif (	"CR" in imToString(coOrdDict["modality3"]) or
 					"XC" in imToString(coOrdDict["modality3"])):
@@ -1452,23 +1481,25 @@ def case_details():
 
 				if (j != 21):
 					pag.hotkey("ctrl", "f")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.write("registration date")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.hotkey("ctrl", "a")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("backspace")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("esc")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					
 					pag.press("tab", presses = 2 + 3 * j)
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
-					sleep(delay)
+					sleep(stability_delay)
+					
+					# sleep(delay)
+					halt_case_details()
 			
 			elif (	"CR" in imToString(coOrdDict["modality4"]) or 
 		 			"XC" in imToString(coOrdDict["modality4"])):
@@ -1482,23 +1513,25 @@ def case_details():
 
 				if (j != 21):
 					pag.hotkey("ctrl", "f")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.write("registration date")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.hotkey("ctrl", "a")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("backspace")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("esc")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					
 					pag.press("tab", presses = 2 + 3 * j)
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
-					sleep(delay)
+					sleep(stability_delay)
+					
+					# sleep(delay)
+					halt_case_details()
 
 			elif (	"CR" in imToString(coOrdDict["modality5"]) or 
 		 			"XC" in imToString(coOrdDict["modality5"])):
@@ -1512,23 +1545,25 @@ def case_details():
 
 				if (j != 21):
 					pag.hotkey("ctrl", "f")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.write("registration date")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.hotkey("ctrl", "a")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("backspace")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("esc")
-					#sleep(delay/10)
+					sleep(stability_delay)
 					
 					pag.press("tab", presses = 2 + 3 * j)
-					#sleep(delay/10)
+					sleep(stability_delay)
 					pag.press("enter")
-					#sleep(delay/10)
-					sleep(delay)
+					sleep(stability_delay)
+					
+					# sleep(delay)
+					halt_case_details()
 
 			else:
 
@@ -1545,16 +1580,25 @@ def case_details():
 					sleep(delay/10)
 					pag.press("enter")
 					sleep(delay/10)
-					sleep(delay)
+					
+					# sleep(delay)
+					halt_case_details()
 			
 			row = attributes + flags
 			
 			try:
+				csvfile = open("record.csv", appendMOde, newline = "")
+				writer = csv.writer(csvfile)
 				writer.writerow(row)
+				csvfile.close()
 			except:
 				for i in range(8, 96):
 					row[i] = "null"
+				
+				csvfile = open("record.csv", appendMOde, newline = "")
+				writer = csv.writer(csvfile)
 				writer.writerow(row)
+				csvfile.close()
 				
 			attributes = []
 			flags = []
@@ -1563,13 +1607,12 @@ def case_details():
 		offsetMode = False
 		offsetValue = 1
 
-	
-		pag.press("down", presses = 10)
+		pag.press("end")
+		# pag.press("down", presses = 10)
 		sleep(delay/10)
 		pag.moveTo(805, 562)
 		sleep(delay/10)
 		pag.leftClick()
 		sleep(delay * 2)
-
 
 case_details()
