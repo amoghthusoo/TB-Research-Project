@@ -1,2 +1,2 @@
 https://data.tbportals.niaid.nih.gov/
-https://data.tbportals.niaid.nih.gov/cases?provider=Region+52%2CRegion+8%2CRegion+9%2CRegion+19%2CRegion+15%2CRegion+10%2CRegion+37%2CRegion+12%2CRegion+11%2CRegion+33%2CRegion+2%2CRegion+30%2CRegion+4%2CRegion+41%2CRegion+40%2CRegion+39&_take=21&_skip=1155
+https://data.tbportals.niaid.nih.gov/cases?provider=Region+52%2CRegion+8%2CRegion+9%2CRegion+19%2CRegion+15%2CRegion+10%2CRegion+37%2CRegion+12%2CRegion+11%2CRegion+33%2CRegion+2%2CRegion+30%2CRegion+4%2CRegion+41%2CRegion+40%2CRegion+39&_take=21&_skip=1344
