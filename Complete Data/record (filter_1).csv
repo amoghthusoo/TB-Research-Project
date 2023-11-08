@@ -1,0 +1,869 @@
+patient_id,country,dst_profile,age,bmi,glucose,albumin,creatinine,ULS_small_cavities,ULS_medium_cavities,ULS_large_cavities,URS_small_cavities,URS_medium_cavities,URS_large_cavities,ULS_small_nodules,ULS_medium_nodules,ULS_large_nodules,ULS_huge_nodules,ULS_calcified_nodules,ULS_non_calcified_nodules,ULS_clustered_nodules,ULS_multiple_nodules,ULS_low_density,ULS_medium_density,ULS_large_density,URS_small_nodules,URS_medium_nodules,URS_large_nodules,URS_huge_nodules,URS_calcified_nodules,URS_non_calcified_nodules,URS_clustered_nodules,URS_multiple_nodules,URS_low_density,URS_medium_density,URS_large_density,MLS_small_cavities,MLS_medium_cavities,MLS_large_cavities,MRS_small_cavities,MRS_medium_cavities,MRS_large_cavities,MLS_small_nodules,MLS_medium_nodules,MLS_large_nodules,MLS_huge_nodules,MLS_calcified_nodules,MLS_non_calcified_nodules,MLS_clustered_nodules,MLS_multiple_nodules,MLS_low_density,MLS_medium_density,MLS_large_density,MRS_small_nodules,MRS_medium_nodules,MRS_large_nodules,MRS_huge_nodules,MRS_calcified_nodules,MRS_non_calcified_nodules,MRS_clustered_nodules,MRS_multiple_nodules,MRS_low_density,MRS_medium_density,MRS_large_density,LLS_small_cavities,LLS_medium_cavities,LLS_large_cavities,LRS_small_cavities,LRS_medium_cavities,LRS_large_cavities,LLS_small_nodules,LLS_medium_nodules,LLS_large_nodules,LLS_huge_nodules,LLS_calcified_nodules,LLS_non_calcified_nodules,LLS_clustered_nodules,LLS_multiple_nodules,LLS_low_density,LLS_medium_density,LLS_large_density,LRS_small_nodules,LRS_medium_nodules,LRS_large_nodules,LRS_huge_nodules,LRS_calcified_nodules,LRS_non_calcified_nodules,LRS_clustered_nodules,LRS_multiple_nodules,LRS_low_density,LRS_medium_density,LRS_large_density,abnormal_volume,pleural_effusion,pleural_effusion_bilateral,timika_score,ULS_flag,URS_flag,MLS_flag,MRS_flag,LLS_flag,LRS_flag
+7158,BY,MDR non XDR,34,17.72,4.2,36.8,101.2,15,5,0,5,5,0,40,40,0,0,Yes,Yes,Yes,Yes,30,47,3,45,45,0,0,No,Yes,Yes,Yes,45,45,0,5,5,0,1,0,0,40,40,0,0,Yes,Yes,Yes,Yes,40,38,2,30,30,0,0,Yes,Yes,Yes,Yes,30,27,3,1,0,8,1,0,0,30,30,0,0,Yes,Yes,No,No,30,27,3,20,20,0,0,No,Yes,No,No,35,5,0,86,0,No,126,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9392,BY,"Sensitive
+
+",37,21.8,5.7,31.4,40.9,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,69,0,No,69,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+19473,BY,"Sensitive
+
+",33,22.64,7.7,26.3,48.8,5,2,0,5,5,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,5,5,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,0,0,0,0,0,0,25,25,25,0,No,Yes,Yes,Yes,25,50,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,37,0,No,77,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+19470,BY,"Sensitive
+
+",76,16.18,5.6,,88.5,2,0,0,2,0,0,30,30,0,0,Yes,Yes,Yes,Yes,25,25,10,25,25,0,0,Yes,Yes,Yes,Yes,20,20,10,0,0,0,0,0,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,35,35,0,0,Yes,Yes,Yes,Yes,30,30,10,0,0,0,0,0,0,5,5,0,0,No,Yes,Yes,Yes,5,5,0,25,25,0,0,Yes,Yes,Yes,Yes,20,20,10,36,0,No,76,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+19466,BY,"Sensitive
+
+",75,26.03,5.1,null,50.8,0,0,0,0,0,0,15,20,0,0,Yes,Yes,Yes,Yes,15,15,5,25,20,0,0,Yes,Yes,Yes,Yes,20,20,5,0,0,0,0,0,0,55,5,0,0,No,Yes,Yes,Yes,30,30,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,0,0,0,0,0,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,25,30,0,0,Yes,Yes,Yes,Yes,25,25,5,31,0,No,31,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12298,BY,MDR non XDR,43,16.3,6.1,35.3,61.7,0,0,0,20,30,0,10,10,0,0,No,Yes,No,No,10,10,0,0,0,0,0,No,No,No,No,0,0,0,1,0,0,15,15,0,30,30,0,0,No,Yes,Yes,Yes,40,20,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,35,35,0,0,No,Yes,Yes,Yes,40,30,0,67,0,No,107,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13097,BY,MDR non XDR,42,21.22,4.9,31.2,57.6,10,5,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,5,0,0,0,No,Yes,Yes,Yes,2,3,0,3,0,0,0,0,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,15,15,0,0,No,Yes,Yes,Yes,10,20,0,0,0,0,0,0,0,10,10,0,0,No,Yes,Yes,Yes,5,15,0,5,0,0,0,No,Yes,Yes,Yes,2,3,0,46,0,No,86,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+19467,BY,"Sensitive
+
+",59,22.64,5.5,null,93.2,0,0,0,0,0,0,35,35,10,0,No,Yes,Yes,Yes,40,40,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,0,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,0,0,0,0,0,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,46,0,No,46,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+19369,BY,"Sensitive
+
+",64,18.34,6.1,37.2,136.5,0,0,0,0,0,0,35,35,0,0,Yes,Yes,Yes,Yes,0,35,35,35,35,0,0,Yes,Yes,No,No,0,35,35,0,0,0,0,0,0,25,25,0,0,Yes,Yes,No,No,0,25,25,30,30,0,0,Yes,Yes,Yes,Yes,0,30,30,0,0,0,0,0,0,15,15,0,0,Yes,Yes,Yes,Yes,10,10,10,15,15,0,0,Yes,Yes,Yes,Yes,10,10,10,31,0,No,31,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14692,BY,"Pre»XDR
+
+",40,21.87,3.7,21.2,24,0,0,0,5,10,70,30,30,0,0,No,Yes,Yes,Yes,30,30,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,5,10,40,40,40,0,0,No,Yes,Yes,Yes,40,40,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,0,0,0,5,0,0,30,0,0,0,No,Yes,Yes,Yes,15,15,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,65,0,No,105,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+18775,BY,"Pre»XDR
+
+",67,22.48,4.1,29.9,38.6,0,0,0,0,0,0,5,5,0,0,No,Yes,Yes,Yes,5,5,0,8,8,0,0,No,Yes,Yes,Yes,8,8,0,0,0,0,0,0,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,15,15,15,0,No,Yes,Yes,Yes,15,30,0,0,0,0,0,0,0,5,5,0,0,No,Yes,Yes,Yes,5,5,0,10,10,10,0,No,Yes,Yes,Yes,15,15,0,24,0,No,24,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+18805,BY,MDR non XDR,57,29.72,6,27.2,36.8,0,0,0,5,0,0,2,2,0,0,No,Yes,Yes,Yes,2,2,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,0,0,0,0,0,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,0,0,0,0,0,0,3,3,0,0,No,Yes,Yes,Yes,3,3,0,35,35,0,0,Yes,Yes,Yes,Yes,25,25,20,49,0,No,89,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+18680,BY,"Poly DR
+
+",48,18.69,3.9,null,60.4,0,0,0,0,0,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,0,0,0,0,0,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,0,0,0,0,0,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,81,0,No,81,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1873,BY,"Mono DR
+
+",69,25.71,5.6,null,67.4,0,0,0,0,0,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,0,0,0,0,0,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,0,0,0,0,0,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,22,0,No,22,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15092,BY,"XDR
+
+",62,22.92,4.8,18.6,56.9,0,0,0,2,0,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,30,30,5,0,No,Yes,Yes,Yes,30,35,0,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,31,0,No,71,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6489,BY,MDR non XDR,41,23.85,null,null,null,10,5,0,1,0,0,10,10,0,0,No,Yes,No,No,5,14,1,15,15,0,0,Yes,Yes,Yes,Yes,10,10,10,0,0,0,0,0,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,5,5,0,0,No,Yes,No,No,5,5,0,0,0,0,0,0,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,17,0,No,57,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16097,BY,"XDR
+
+",43,19.61,5.2,36.4,57,0,0,0,5,0,0,10,10,5,0,No,Yes,Yes,Yes,10,15,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,0,0,0,5,0,0,30,30,5,0,No,Yes,Yes,Yes,35,30,0,25,25,10,0,No,Yes,Yes,Yes,30,30,0,0,0,0,0,0,0,5,5,0,0,No,Yes,Yes,Yes,5,5,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,74,0,No,114,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6436,BY,"XDR
+
+",45,22.02,null,null,null,10,20,5,0,0,0,0,0,0,0,No,No,No,No,0,0,0,15,15,0,0,No,Yes,No,No,5,25,0,20,20,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,30,30,0,0,No,Yes,No,No,20,40,0,0,0,0,0,0,0,10,10,0,0,No,Yes,No,No,10,10,0,60,35,0,0,No,Yes,Yes,Yes,80,15,0,76,0,No,116,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6303,BY,MDR non XDR,33,22.06,null,null,null,0,0,0,0,0,0,35,35,0,0,No,Yes,Yes,Yes,70,0,0,35,35,0,0,No,Yes,Yes,Yes,70,0,0,0,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,90,0,0,40,40,0,0,No,Yes,Yes,Yes,80,0,0,0,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,50,10,0,20,20,0,0,No,Yes,Yes,Yes,30,10,0,82,5,Yes,82,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16031,BY,"Mono DR
+
+",55,28.39,5.5,33.8,74.5,0,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,50,10,0,35,35,0,0,No,Yes,Yes,Yes,60,10,0,0,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,40,20,0,35,35,0,0,No,Yes,Yes,Yes,60,10,0,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,40,10,0,15,15,0,0,No,Yes,Yes,Yes,25,5,0,54,15,No,54,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16022,BY,"Pre»XDR
+
+",44,19.15,4.7,29.8,39.9,10,20,40,0,0,0,50,50,0,0,No,Yes,No,Yes,50,50,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,10,20,30,0,0,0,0,0,0,0,No,No,No,No,0,0,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,10,10,0,0,No,Yes,Yes,Yes,18,2,0,77,0,No,117,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16017,BY,MDR non XDR,48,17.99,5.8,47.2,52.3,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,0,0,0,0,0,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,0,0,0,0,0,0,5,5,0,0,No,No,Yes,Yes,5,5,0,5,5,0,0,No,Yes,Yes,Yes,5,5,0,17,0,No,17,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16015,BY,"Pre»XDR
+
+",38,18.51,5.7,23.9,47,5,0,0,2,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,35,35,0,0,No,No,Yes,Yes,35,35,0,2,0,0,1,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,0,0,0,0,0,0,31,31,0,0,No,Yes,Yes,Yes,31,31,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,94,0,No,134,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+18014,BY,MDR non XDR,29,16.88,4.3,null,64.6,0,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,80,10,0,45,45,0,0,No,Yes,Yes,Yes,80,10,0,0,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,70,20,0,45,45,0,0,No,Yes,Yes,Yes,70,20,0,0,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,65,25,0,45,45,0,0,No,Yes,Yes,Yes,65,25,0,93,0,No,93,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14984,BY,"XDR
+
+",50,23.04,6,37.7,59.8,0,0,0,5,0,0,10,10,10,0,Yes,Yes,Yes,Yes,10,10,10,30,30,10,0,Yes,Yes,Yes,Yes,30,30,10,0,0,0,0,0,0,15,15,0,0,Yes,Yes,Yes,Yes,10,15,5,15,15,15,0,Yes,Yes,Yes,Yes,15,15,15,0,0,0,0,0,0,5,5,0,0,No,Yes,Yes,Yes,5,5,0,10,5,5,0,Yes,Yes,Yes,Yes,10,5,5,38,0,No,78,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15430,BY,"Pre»XDR
+
+",41,19.92,4.9,37.5,51.7,0,0,0,0,0,0,25,5,0,0,No,Yes,Yes,Yes,28,2,0,25,5,0,0,No,Yes,Yes,Yes,2,28,0,0,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,50,10,0,30,30,0,0,No,Yes,Yes,Yes,50,10,0,0,0,0,0,0,0,45,5,0,0,No,Yes,Yes,Yes,45,5,0,25,5,0,0,No,Yes,Yes,Yes,25,5,0,29,0,No,29,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15427,BY,MDR non XDR,54,18.37,4.7,32.9,83.1,0,0,0,0,0,0,10,10,0,0,No,Yes,No,Yes,10,10,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,0,0,0,0,0,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,25,25,5,0,Yes,Yes,Yes,Yes,25,25,5,0,0,0,0,0,0,5,5,0,0,No,Yes,Yes,Yes,5,5,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,31,35,No,31,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15425,BY,MDR non XDR,49,21.55,4.2,34,72.9,0,0,0,0,0,0,25,25,0,0,Yes,Yes,No,No,0,10,40,20,20,0,0,Yes,Yes,No,No,0,5,35,0,0,0,0,0,0,15,15,0,0,Yes,Yes,No,No,0,5,25,15,15,0,0,Yes,Yes,No,No,5,5,20,0,0,0,0,0,0,5,5,0,0,Yes,Yes,No,No,0,1,9,10,10,0,0,Yes,Yes,No,No,0,5,15,15,0,No,15,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15424,BY,"Pre»XDR
+
+",43,20.62,2.7,41.3,66.1,0,0,0,5,0,0,10,10,0,0,No,Yes,Yes,Yes,15,5,0,35,35,0,0,No,Yes,Yes,Yes,60,10,0,0,0,0,15,0,0,25,25,0,0,No,Yes,Yes,Yes,45,5,0,35,35,0,0,No,Yes,Yes,Yes,60,10,0,0,0,0,0,0,0,15,15,0,0,No,Yes,Yes,Yes,25,5,0,10,10,0,0,No,Yes,Yes,Yes,15,5,0,37,0,No,77,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15420,BY,MDR non XDR,60,24.46,4.9,27,67.3,0,0,0,2,0,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,0,0,0,0,0,0,10,10,0,0,No,Yes,Yes,Yes,15,5,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,0,0,0,15,0,0,10,10,10,0,No,Yes,Yes,Yes,15,15,0,30,30,0,0,No,Yes,Yes,Yes,50,10,0,41,0,No,81,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15418,BY,MDR non XDR,36,20.28,7,33.8,50.5,0,0,0,0,0,0,45,45,0,0,Yes,Yes,Yes,Yes,70,15,5,45,45,0,0,Yes,Yes,Yes,Yes,70,18,2,0,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,45,45,0,0,No,No,Yes,Yes,70,20,0,0,0,0,0,0,0,45,45,0,0,Yes,Yes,Yes,Yes,80,10,0,35,35,0,0,No,Yes,Yes,Yes,60,10,0,85,0,No,85,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15090,BY,"Pre»XDR
+
+",17,21.72,5.4,28.2,60.6,0,0,0,0,0,0,80,0,0,0,No,Yes,Yes,No,80,0,0,80,0,0,0,No,Yes,Yes,No,80,0,0,0,0,0,0,0,0,80,0,0,0,No,Yes,Yes,No,80,0,0,80,0,0,0,No,Yes,Yes,No,80,0,0,0,0,0,0,0,0,80,0,0,0,No,Yes,Yes,No,80,0,0,80,0,0,0,No,Yes,Yes,No,80,0,0,80,0,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12248,BY,"Pre»XDR
+
+",38,27.47,4.9,39.6,82.4,0,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,80,10,0,45,45,0,0,No,Yes,Yes,Yes,80,10,0,0,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,80,10,0,45,45,0,0,No,Yes,Yes,Yes,70,20,0,0,0,0,0,0,0,35,35,0,0,No,Yes,Yes,Yes,60,10,0,40,40,0,0,No,Yes,Yes,Yes,60,20,0,95,0,No,95,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14885,BY,"Pre»XDR
+
+",55,23.04,null,null,null,10,0,0,5,0,0,40,40,0,0,Yes,Yes,Yes,Yes,30,45,5,35,35,0,0,Yes,Yes,Yes,Yes,30,35,5,0,0,0,0,0,0,35,35,0,0,Yes,Yes,Yes,Yes,30,37,3,25,25,0,0,Yes,Yes,Yes,Yes,20,25,5,0,0,0,0,0,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,51,0,No,91,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14694,BY,"XDR
+
+",45,21.55,4.9,37.1,77.8,0,0,0,0,0,0,7,7,0,0,No,Yes,Yes,Yes,7,7,0,8,8,0,0,No,No,Yes,Yes,8,8,0,0,0,0,0,0,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,0,0,0,0,0,0,6,4,0,0,No,Yes,Yes,Yes,8,2,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,47,0,No,47,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13175,BY,"Pre»XDR
+
+",59,23.08,6.2,27.6,40.3,5,5,0,3,0,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,5,1,0,1,0,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,0,0,0,0,0,0,30,50,0,0,No,Yes,Yes,Yes,60,20,0,15,5,0,0,No,Yes,Yes,Yes,10,10,0,83,0,No,123,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13173,BY,MDR non XDR,66,22.72,4.2,30.7,74.6,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,0,0,0,0,0,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,35,35,0,0,No,No,Yes,Yes,35,35,0,0,0,0,0,0,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,71,0,No,71,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+2874,BY,"XDR
+
+",40,21.2,null,null,null,3,0,0,2,3,0,20,20,0,0,Yes,Yes,Yes,Yes,19,19,2,40,40,0,0,Yes,Yes,Yes,Yes,30,47,3,0,0,0,0,0,0,40,40,0,0,Yes,Yes,Yes,Yes,50,29,1,25,25,0,0,Yes,Yes,Yes,Yes,25,24,1,0,0,0,0,0,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,78,0,No,118,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11698,BY,"Pre»XDR
+
+",38,24.75,5.3,36.5,42.5,6,0,0,3,0,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,0,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,0,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,72,0,No,112,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9391,BY,"Sensitive
+
+",42,22.94,6.4,42.5,86,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,0,0,0,0,0,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,73,0,No,73,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10444,BY,"Pre»XDR
+
+",46,19.47,4.9,44.6,73.3,10,10,0,10,20,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,10,0,0,10,10,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,45,45,0,0,No,Yes,No,No,45,45,0,0,0,0,10,0,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,88,0,No,128,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10417,BY,MDR non XDR,78,21.61,4.8,23.3,58.4,0,0,0,0,0,0,10,10,0,0,Yes,Yes,No,Yes,0,5,15,10,10,0,25,Yes,Yes,No,Yes,0,10,35,0,0,0,0,0,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,0,0,0,0,0,0,10,10,0,0,No,Yes,No,Yes,10,10,0,0,0,0,0,No,No,No,No,0,0,0,53,25,No,53,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10367,BY,MDR non XDR,40,19.63,4.2,36.9,63.1,10,10,5,10,0,0,0,0,0,0,No,No,No,No,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,5,5,0,2,0,0,30,30,0,0,No,Yes,No,Yes,30,30,0,35,35,0,0,No,Yes,Yes,Yes,50,20,0,3,0,0,0,0,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,15,15,0,0,No,Yes,Yes,Yes,25,5,0,74,0,No,114,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9533,BY,"Pre»XDR
+
+",90,63,9.3,34.4,244.2,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,0,0,0,0,0,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,0,0,0,0,0,0,40,20,0,0,No,Yes,Yes,Yes,30,30,0,30,10,0,0,No,Yes,Yes,Yes,20,20,0,72,0,No,72,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9532,BY,"XDR
+
+",45,67,5,32.4,51.8,0,0,0,0,0,0,50,20,0,0,No,Yes,Yes,Yes,60,10,0,50,20,0,0,No,Yes,Yes,Yes,50,20,0,0,0,0,0,0,0,70,20,0,0,No,Yes,Yes,Yes,70,20,0,70,20,0,0,No,Yes,Yes,Yes,70,20,0,0,0,0,0,0,0,60,20,0,0,No,Yes,Yes,Yes,70,10,0,70,10,0,0,No,Yes,Yes,Yes,60,20,0,87,0,No,87,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9100,BY,MDR non XDR,66,17.97,4.6,29.7,88.7,0,0,0,0,0,0,5,10,5,0,Yes,No,Yes,Yes,5,15,0,40,40,0,0,Yes,Yes,Yes,Yes,40,37,3,0,0,0,0,0,0,35,35,5,0,No,Yes,Yes,Yes,35,40,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,0,0,0,0,0,0,10,10,0,0,No,Yes,No,No,10,10,0,10,10,0,0,No,Yes,No,No,10,10,0,43,0,No,43,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8270,BY,"Mono DR
+
+",45,17.76,4.2,32.2,60.6,0,0,0,0,0,0,10,10,0,0,Yes,Yes,No,Yes,7,8,5,20,20,20,0,No,Yes,Yes,Yes,30,30,0,0,0,0,0,0,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,0,0,0,0,0,0,10,10,0,0,No,Yes,No,Yes,10,10,0,25,25,5,0,No,Yes,No,Yes,25,30,0,69,5,No,69,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7032,BY,MDR non XDR,86,22.31,4.6,28.2,88.4,30,0,0,15,25,0,35,35,0,0,Yes,Yes,Yes,Yes,30,35,5,40,40,0,0,Yes,Yes,Yes,Yes,35,35,10,5,0,0,5,5,0,35,35,0,0,Yes,Yes,Yes,Yes,35,30,5,35,35,0,0,Yes,Yes,Yes,Yes,35,30,5,0,0,0,0,0,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,69,3,No,109,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6559,BY,"XDR
+
+",74,16.73,null,null,null,20,20,2,3,0,0,0,0,0,0,No,No,No,No,0,0,0,30,30,0,0,Yes,Yes,Yes,Yes,20,35,5,20,5,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,30,30,0,0,No,Yes,Yes,Yes,50,10,0,10,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,No,Yes,Yes,Yes,15,5,0,81,15,No,121,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6556,BY,MDR non XDR,57,17.06,null,null,null,10,0,0,10,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,2,0,0,1,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,3,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,37,37,0,0,No,Yes,Yes,Yes,37,37,0,93,3,No,133,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6488,BY,"XDR
+
+",45,19.02,null,null,null,5,10,0,0,0,0,45,45,0,0,No,Yes,No,No,45,45,0,35,35,10,0,No,Yes,Yes,Yes,40,40,0,5,0,0,0,0,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,45,20,0,0,No,Yes,Yes,Yes,55,10,0,0,0,0,0,0,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,30,30,0,0,No,Yes,Yes,Yes,55,5,0,73,0,No,113,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6482,BY,MDR non XDR,57,23.46,null,null,null,0,0,0,2,0,0,35,35,0,0,Yes,Yes,Yes,Yes,30,33,7,45,45,0,0,Yes,Yes,Yes,Yes,30,55,5,0,0,0,0,0,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,0,0,0,0,0,0,15,15,0,0,No,Yes,Yes,Yes,20,10,0,20,5,0,0,No,Yes,Yes,Yes,20,5,0,54,0,No,94,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6459,BY,"XDR
+
+",34,26.75,null,null,null,0,0,0,0,0,0,80,10,0,0,No,Yes,Yes,Yes,90,0,0,80,0,0,0,No,Yes,Yes,Yes,80,0,0,0,0,0,0,0,0,90,5,0,0,No,Yes,Yes,Yes,90,5,0,80,0,0,0,No,Yes,Yes,Yes,80,0,0,0,0,0,0,0,0,90,5,0,0,No,Yes,Yes,Yes,90,5,0,90,0,0,0,No,Yes,Yes,Yes,85,5,0,96,0,No,96,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6452,BY,MDR non XDR,38,22.09,null,null,null,0,0,0,6,0,0,10,0,0,0,No,Yes,No,No,10,0,0,20,20,0,0,No,Yes,Yes,Yes,35,5,0,0,0,0,0,0,0,20,0,0,0,No,Yes,Yes,Yes,20,0,0,25,25,0,0,No,Yes,Yes,Yes,40,10,0,0,0,0,0,0,0,20,0,0,0,No,Yes,Yes,Yes,20,0,0,20,0,0,0,No,Yes,Yes,Yes,15,5,0,22,0,No,62,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6437,BY,"XDR
+
+",47,20.2,null,null,null,0,0,0,0,0,0,30,0,0,0,No,Yes,Yes,Yes,20,10,0,40,0,0,0,No,Yes,Yes,Yes,20,20,0,0,0,0,0,0,0,60,0,0,0,No,Yes,Yes,Yes,30,30,0,70,0,0,0,No,Yes,Yes,Yes,35,35,0,0,0,0,0,0,0,60,0,0,0,No,Yes,Yes,Yes,40,20,0,60,0,0,0,No,Yes,Yes,Yes,40,20,0,68,0,No,68,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6304,BY,"XDR
+
+",45,22.59,null,null,null,10,20,0,5,5,0,35,35,0,0,No,Yes,No,No,30,40,0,40,40,0,0,No,Yes,No,No,40,40,0,1,0,0,2,0,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,0,0,0,0,0,0,5,0,0,0,No,Yes,No,No,0,5,0,5,0,0,0,No,Yes,No,Yes,0,5,0,72,0,No,112,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6249,BY,MDR non XDR,45,19.13,null,null,null,10,20,30,0,0,0,0,0,0,0,No,No,No,No,0,0,0,10,0,0,0,No,Yes,No,No,8,2,0,10,5,0,0,0,0,45,45,0,0,Yes,Yes,Yes,Yes,30,30,30,20,20,0,10,No,Yes,Yes,Yes,25,25,0,1,0,0,0,0,0,25,25,0,0,Yes,Yes,Yes,Yes,20,25,5,15,0,0,0,No,Yes,Yes,Yes,13,2,0,78,2,No,118,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6232,BY,"XDR
+
+",25,16.82,null,null,null,10,20,20,10,20,30,45,45,0,0,No,Yes,Yes,Yes,45,45,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,10,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,40,40,0,0,No,Yes,Yes,Yes,60,20,0,0,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,30,30,0,0,No,Yes,Yes,Yes,50,10,0,74,0,No,114,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6230,BY,MDR non XDR,49,17.58,null,null,null,10,10,0,10,20,30,35,35,0,0,No,Yes,Yes,Yes,35,35,0,45,45,0,0,No,Yes,Yes,Yes,80,10,0,5,0,0,4,0,0,35,35,0,0,No,Yes,Yes,Yes,60,10,0,40,40,0,0,No,Yes,Yes,Yes,70,10,0,0,0,0,5,0,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,85,0,No,125,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+4004,BY,MDR non XDR,45,17.42,null,null,null,0,0,0,0,0,0,8,0,0,0,No,Yes,Yes,Yes,8,0,0,31,0,0,0,No,Yes,Yes,Yes,22,9,0,0,0,0,14,0,0,18,0,0,0,No,Yes,Yes,Yes,18,0,0,50,30,0,0,No,Yes,Yes,Yes,60,20,0,0,0,0,12,0,0,25,0,0,0,No,Yes,Yes,Yes,25,0,0,60,25,0,0,No,Yes,Yes,Yes,70,15,0,63,0,No,103,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+487,BY,"XDR
+
+",35,72,null,null,null,0,0,0,25,0,0,8,0,0,0,No,Yes,Yes,Yes,7,1,0,5,4,0,0,No,Yes,No,Yes,3,6,0,0,0,0,0,0,0,8,0,0,0,No,Yes,No,No,7,1,0,65,5,0,0,No,Yes,No,Yes,60,10,0,0,0,0,0,0,0,2,0,0,0,No,Yes,No,No,2,0,0,1,0,0,0,No,Yes,No,Yes,0,1,0,46,6,No,86,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+612,BY,MDR non XDR,29,18.31,null,null,null,5,0,0,0,0,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,5,5,0,0,No,Yes,Yes,Yes,2,8,0,0,0,0,0,0,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,15,15,0,0,No,No,Yes,Yes,15,15,0,0,0,0,0,0,0,20,15,0,0,No,Yes,Yes,Yes,20,15,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1768,BY,MDR non XDR,56,23.51,null,null,null,10,20,0,4,0,0,30,40,0,0,No,Yes,Yes,Yes,35,35,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,0,0,0,0,0,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,0,0,0,0,0,0,5,5,0,0,No,Yes,Yes,Yes,5,5,0,5,5,0,0,No,Yes,Yes,Yes,5,5,0,86,0,No,126,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+429,BY,MDR non XDR,49,78,null,null,null,0,0,0,0,0,0,2,3,0,0,Yes,Yes,No,Yes,1,3,1,30,40,0,0,Yes,Yes,Yes,Yes,50,19,1,0,0,0,1,0,0,20,20,0,0,No,Yes,Yes,Yes,30,10,0,40,45,5,0,Yes,Yes,Yes,Yes,60,29,1,0,0,0,0,0,0,25,10,0,0,No,Yes,Yes,Yes,25,10,0,30,10,0,0,No,Yes,Yes,Yes,25,15,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+436,BY,MDR non XDR,24,56,null,null,null,0,0,0,0,0,0,12,0,0,0,No,Yes,No,No,0,12,0,10,5,0,0,No,Yes,No,No,2,13,0,0,0,0,0,0,0,6,0,0,0,No,Yes,No,No,0,6,0,5,0,0,0,No,Yes,No,Yes,3,2,0,0,0,0,0,0,0,1,1,0,0,No,Yes,No,No,0,2,0,14,25,0,0,No,Yes,Yes,Yes,9,30,0,21,0,No,21,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+444,BY,MDR non XDR,29,39,null,null,null,0,0,0,0,0,0,6,0,0,0,No,Yes,Yes,Yes,3,3,0,4,1,0,0,No,Yes,No,Yes,3,2,0,0,0,0,0,0,0,10,2,0,0,No,Yes,No,Yes,6,6,0,7,5,0,0,Yes,Yes,Yes,Yes,4,7,1,0,0,0,0,0,0,8,7,0,0,No,Yes,Yes,Yes,9,6,0,4,1,0,0,No,Yes,No,Yes,2,3,0,33,0,No,33,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+455,BY,"XDR
+
+",48,68,null,null,null,0,0,0,0,0,0,9,4,0,0,Yes,Yes,Yes,Yes,4,6,3,10,27,0,0,Yes,Yes,Yes,Yes,5,25,7,0,0,0,0,8,0,27,3,0,0,No,Yes,Yes,Yes,10,20,0,15,7,0,0,No,Yes,No,Yes,7,15,0,0,0,0,0,4,0,5,1,0,0,No,Yes,Yes,Yes,5,1,0,1,3,0,0,No,Yes,No,Yes,1,3,0,78,27,No,118,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+473,BY,MDR non XDR,36,65,null,null,null,15,25,30,0,0,0,5,0,0,0,No,No,No,No,5,0,0,8,2,0,0,No,Yes,No,No,8,2,0,5,8,3,0,0,0,8,0,0,0,No,No,No,No,8,0,0,13,12,0,0,No,Yes,Yes,Yes,10,15,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,28,2,0,0,No,Yes,Yes,Yes,25,5,0,85,0,No,125,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+619,BY,"XDR
+
+",51,19.03,null,null,null,30,40,0,0,0,0,0,0,0,0,No,No,No,Yes,0,0,0,68,30,0,0,No,Yes,Yes,Yes,49,49,0,70,20,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,66,30,0,0,No,Yes,Yes,Yes,48,48,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,65,5,0,0,No,Yes,Yes,Yes,50,20,0,97,0,No,137,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+670,BY,"XDR
+
+",45,28.7,null,null,null,5,0,0,0,10,0,60,33,0,0,No,Yes,Yes,Yes,88,5,0,55,35,0,0,No,Yes,Yes,Yes,75,15,0,2,0,0,3,0,0,70,20,0,0,No,Yes,Yes,Yes,85,5,0,70,10,0,0,No,Yes,Yes,Yes,75,5,0,0,0,0,2,0,0,70,0,0,0,No,Yes,Yes,Yes,70,0,0,40,45,1,0,No,Yes,Yes,Yes,55,31,0,98,0,No,138,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+760,BY,"XDR
+
+",53,20.2,null,null,null,0,0,0,10,50,0,30,20,0,0,Yes,Yes,Yes,Yes,30,18,2,10,10,2,0,Yes,Yes,Yes,Yes,10,10,2,0,0,0,0,0,0,20,60,1,0,No,Yes,Yes,Yes,65,15,1,30,30,11,0,Yes,Yes,Yes,Yes,40,30,1,0,0,0,0,0,0,30,0,0,0,No,Yes,No,Yes,28,2,0,15,15,1,0,No,Yes,No,Yes,14,16,1,92,0,No,132,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+838,BY,"XDR
+
+",56,20.57,null,null,null,1,0,0,5,5,80,18,70,2,0,Yes,Yes,Yes,Yes,50,38,2,20,20,0,0,Yes,Yes,Yes,Yes,10,29,1,0,0,0,5,0,0,6,9,0,0,No,Yes,No,Yes,5,10,0,20,60,0,0,Yes,Yes,Yes,Yes,65,14,1,0,0,0,0,0,0,8,2,0,0,No,Yes,Yes,No,10,0,0,25,5,0,0,No,Yes,Yes,Yes,15,15,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+223,BY,MDR non XDR,55,56,null,null,null,0,0,0,0,0,0,35,35,0,0,Yes,Yes,Yes,Yes,20,40,10,30,30,0,0,Yes,Yes,Yes,Yes,30,20,10,0,0,0,0,0,0,35,35,0,0,Yes,Yes,Yes,Yes,20,40,10,40,40,0,0,Yes,Yes,Yes,Yes,25,45,10,0,0,0,0,0,0,10,10,0,0,Yes,Yes,Yes,Yes,5,10,5,10,10,0,0,Yes,Yes,Yes,Yes,5,10,5,74,0,No,74,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+285,BY,MDR non XDR,37,53,null,null,null,0,0,0,0,0,0,55,25,10,0,No,Yes,Yes,Yes,45,45,0,20,15,5,0,No,Yes,Yes,Yes,20,20,0,1,0,0,0,0,0,20,20,15,35,Yes,Yes,Yes,Yes,50,39,1,20,10,10,0,No,Yes,Yes,Yes,20,20,0,0,0,0,0,0,0,15,5,0,0,No,Yes,No,Yes,10,10,0,5,5,10,0,No,Yes,No,Yes,10,10,0,71,0,No,111,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3703,BY,"XDR
+
+",54,38.67,null,null,null,0,0,0,0,0,0,75,5,0,0,No,Yes,Yes,Yes,70,10,0,75,5,0,0,No,Yes,Yes,Yes,70,10,0,0,0,0,0,0,0,75,15,0,0,No,Yes,Yes,Yes,75,15,0,75,15,0,0,No,No,Yes,Yes,75,15,0,0,0,0,0,0,0,40,40,0,0,No,Yes,Yes,Yes,60,20,0,45,40,0,0,No,Yes,Yes,Yes,60,25,0,95,11,Yes,95,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3700,BY,MDR non XDR,37,21.63,null,null,null,0,0,0,0,0,0,60,0,0,0,No,Yes,Yes,No,60,0,0,60,0,0,0,No,Yes,Yes,No,60,0,0,0,0,0,0,0,0,50,0,0,0,Yes,Yes,Yes,Yes,49,0,1,60,0,0,0,No,Yes,Yes,No,60,0,0,0,0,0,0,0,0,60,0,0,0,No,Yes,Yes,No,60,0,0,50,0,0,0,No,Yes,Yes,No,50,0,0,70,0,No,70,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+290,BY,"Sensitive
+
+",62,58,null,null,null,0,0,0,0,0,0,80,10,0,0,No,Yes,Yes,No,90,0,0,80,10,0,0,No,Yes,Yes,No,90,0,0,0,0,0,0,0,0,80,10,0,0,No,Yes,Yes,No,90,0,0,80,10,0,0,No,Yes,Yes,No,90,0,0,0,0,0,0,0,0,70,0,0,0,No,Yes,Yes,No,70,0,0,90,0,0,0,No,Yes,Yes,No,90,0,0,99,0,No,99,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+325,BY,MDR non XDR,43,54,null,null,null,23,0,0,15,10,0,50,45,0,0,No,Yes,Yes,Yes,60,35,0,50,35,5,0,No,Yes,Yes,Yes,70,20,0,30,20,0,20,15,2,45,45,0,0,No,Yes,Yes,Yes,45,45,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,4,0,0,4,0,0,20,10,0,0,No,Yes,Yes,Yes,25,5,0,45,40,5,0,No,Yes,Yes,Yes,45,45,0,92,2,No,132,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+340,BY,MDR non XDR,40,51,null,null,null,32,0,0,0,0,0,40,55,0,0,No,Yes,Yes,Yes,40,55,0,25,5,0,0,No,Yes,Yes,Yes,18,12,0,0,0,0,0,0,0,30,45,0,0,Yes,Yes,Yes,Yes,33,40,2,55,25,0,0,Yes,Yes,Yes,Yes,49,30,1,0,0,0,0,0,0,35,15,0,0,No,Yes,Yes,Yes,25,25,0,17,3,0,0,No,Yes,Yes,Yes,15,5,0,72,0,No,112,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+362,BY,"XDR
+
+",29,110,null,null,null,0,0,0,0,0,0,40,40,0,0,No,Yes,Yes,Yes,75,5,0,40,40,0,0,No,Yes,Yes,Yes,75,5,0,0,0,0,0,0,0,60,20,0,0,No,Yes,Yes,Yes,75,5°/,0,60,20,0,0,No,Yes,Yes,Yes,70,10,0,0,0,0,0,0,0,50,5,0,0,No,Yes,Yes,Yes,55,0,0,45,5,0,0,No,Yes,Yes,Yes,40,10,0,90,0,No,90,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+143,BY,"Sensitive
+
+",47,58,null,null,null,0,0,0,0,0,0,10,5,0,0,No,Yes,Yes,Yes,10,5,0,40,10,0,0,No,Yes,Yes,Yes,25,25,0,0,0,0,0,0,0,50,30,5,0,Yes,Yes,Yes,Yes,40,40,5,35,35,0,0,No,No,Yes,Yes,35,35,0,0,0,0,0,0,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,35,35,0,0,No,Yes,Yes,Yes,35,35,0,76,0,No,76,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+165,BY,"XDR
+
+",48,57,null,null,null,40,30,5,32,5,0,45,45,0,0,Yes,Yes,Yes,Yes,45,43,2,45,45,0,0,No,Yes,Yes,Yes,45,45,0,15,15,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,40,40,0,0,No,Yes,Yes,Yes,50,30,0,0,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,40,30,0,0,No,Yes,Yes,Yes,60,10,0,94,0,No,134,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+182,BY,MDR non XDR,57,63,null,null,null,2,0,0,0,0,0,50,20,12,0,No,Yes,Yes,Yes,62,20,0,50,20,12,0,No,Yes,Yes,Yes,62,20,0,0,0,0,0,0,0,75,0,0,0,No,Yes,Yes,Yes,75,0,0,70,0,0,0,No,Yes,Yes,Yes,70,0,0,0,0,0,0,0,0,75,0,0,0,No,Yes,Yes,Yes,75,0,0,70,0,0,0,No,Yes,Yes,Yes,70,0,0,87,0,No,127,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3197,BY,"XDR
+
+",53,30.84,null,null,null,2,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,0,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,0,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,65,0,No,105,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+2683,BY,MDR non XDR,37,26.51,null,null,null,0,0,0,0,0,0,10,10,0,0,No,Yes,Yes,Yes,10,10,0,5,5,0,0,No,Yes,Yes,Yes,5,5,0,0,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,20,40,0,10,10,0,0,No,Yes,Yes,Yes,5,15,0,0,0,0,0,0,0,5,5,0,0,No,Yes,Yes,Yes,2,8,0,5,5,0,0,No,Yes,Yes,Yes,2,8,0,9,0,No,null,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+2678,BY,"XDR
+
+",31,17.06,null,null,null,10,20,60,3,0,0,45,45,0,0,No,Yes,Yes,Yes,70,20,0,15,15,0,0,No,Yes,Yes,Yes,20,10,0,20,20,0,0,0,0,45,30,0,0,No,Yes,Yes,Yes,55,20,0,45,40,0,0,No,Yes,Yes,Yes,65,20,0,0,0,0,0,0,0,45,45,0,0,No,Yes,Yes,Yes,45,45,0,10,10,0,0,No,Yes,Yes,Yes,15,5,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1894,BY,"XDR
+
+",46,21.71,null,null,null,0,0,0,0,0,0,12,8,0,0,No,Yes,Yes,Yes,10,10,0,30,30,0,0,No,Yes,Yes,Yes,40,20,0,0,0,0,0,0,0,40,40,0,0,No,Yes,Yes,Yes,40,40,0,20,20,0,0,No,Yes,Yes,Yes,20,20,0,0,0,0,0,0,0,30,30,0,0,No,Yes,Yes,Yes,30,30,0,15,15,0,0,No,Yes,Yes,Yes,15,15,0,42,0,No,42,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+2470,BY,"XDR
+
+",51,34.11,null,null,null,0,0,0,2,0,0,4,4,0,0,No,Yes,No,Yes,3,5,0,30,30,0,0,No,Yes,Yes,Yes,45,15,0,0,0,0,0,0,0,25,25,0,0,No,Yes,Yes,Yes,25,25,0,8,7,0,0,No,Yes,Yes,Yes,10,5,0,0,0,0,0,0,0,45,40,0,0,No,Yes,Yes,Yes,50,35,0,10,0,0,0,No,Yes,Yes,Yes,9,1,0,72,0,No,112,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+2458,BY,"XDR
+
+",39,19.39,null,null,null,20,0,0,15,0,0,50,40,0,0,No,Yes,Yes,Yes,80,10,0,60,20,0,0,No,No,Yes,Yes,50,30,0,16,0,0,0,0,0,50,30,5,0,No,Yes,Yes,Yes,75,10,0,60,0,0,0,No,Yes,Yes,Yes,55,5,0,0,0,0,0,0,0,10,0,0,0,No,Yes,Yes,No,10,0,0,10,0,0,0,No,Yes,Yes,No,10,0,0,84,0,No,124,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1185,BY,MDR non XDR,35,20.53,null,null,null,10,20,55,10,40,0,0,0,0,0,No,No,No,No,0,0,0,50,50,0,0,No,Yes,No,Yes,90,10,0,5,15,70,2,0,0,0,0,0,0,No,No,No,Yes,0,0,0,50,50,0,0,No,Yes,No,Yes,90,10,0,10,20,50,0,0,0,0,0,0,0,No,No,No,No,0,0,0,50,50,0,0,No,Yes,No,Yes,90,10,0,100,5,Yes,140,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1182,BY,MDR non XDR,54,22.48,null,null,null,9,0,0,0,0,0,70,20,0,0,No,Yes,Yes,Yes,81,9,0,30,0,0,0,No,Yes,Yes,Yes,27,3,0,0,0,0,0,0,0,70,10,0,0,No,Yes,Yes,Yes,72,8,0,70,10,0,0,No,Yes,Yes,Yes,75,5,0,0,0,0,0,0,0,30,0,0,0,No,Yes,Yes,Yes,29,1,0,50,2,0,0,No,Yes,Yes,Yes,49,3,0,80,0,No,120,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+21339,GE,"Sensitive
+
+",90,null,null,null,null,30,0,0,40,0,0,40,0,0,0,No,No,No,No,40,0,0,0,80,0,0,No,No,No,No,0,80,0,0,0,0,10,0,0,20,0,0,0,No,No,No,No,20,0,0,0,80,0,0,No,No,No,No,0,80,0,0,0,0,0,0,0,30,0,0,0,No,No,No,No,30,0,0,40,0,0,0,No,No,No,No,40,0,0,100,0,No,140,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+19774,GE,MDR non XDR,53,"169,550.1'",null,null,null,10,0,0,20,0,0,0,20,20,0,No,No,No,No,20,20,0,0,0,20,0,No,No,No,No,20,0,0,30,0,0,0,0,0,0,40,0,0,No,No,No,No,0,40,0,0,0,20,0,No,No,No,No,20,0,0,0,0,0,0,0,0,0,50,0,0,No,No,No,No,0,50,0,0,0,60,0,No,No,No,No,60,0,0,90,5,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+19725,GE,"Sensitive
+
+",49,null,null,null,null,5,0,0,20,0,0,15,0,0,0,No,No,No,No,15,0,0,0,80,0,0,No,No,No,No,0,80,0,5,0,0,10,0,0,40,20,0,0,No,No,No,No,40,20,0,30,40,0,0,No,No,No,No,30,40,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,20,0,0,0,No,No,No,No,20,0,0,80,0,No,120,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+19713,GE,"Sensitive
+
+",52,null,null,null,null,80,0,0,30,0,0,30,20,0,0,No,No,No,No,30,20,0,50,0,0,0,No,No,No,No,50,0,0,10,0,0,20,0,0,0,40,0,0,No,No,No,No,0,40,0,80,0,0,0,No,No,No,No,80,0,0,0,0,0,0,0,0,0,20,0,0,No,No,No,No,0,20,0,30,0,0,0,No,No,Yes,No,30,0,0,100,5,No,140,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+19419,GE,"Sensitive
+
+",70,null,null,null,null,0,0,0,0,0,0,51,0,1,0,Yes,Yes,Yes,No,50,2,0,67,2,0,0,Yes,Yes,No,No,62,7,0,0,0,0,0,0,0,62,2,0,0,Yes,Yes,Yes,No,63,1,0,71,4,0,0,Yes,Yes,No,No,72,3,0,0,0,0,0,0,0,55,2,0,0,Yes,Yes,No,No,55,2,0,68,0,0,0,Yes,Yes,No,No,68,0,0,74,0,No,74,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+20170,GE,"Sensitive
+
+",29,null,null,null,null,20,0,0,80,0,0,0,0,40,0,No,No,No,No,0,0,40,0,40,20,0,No,No,No,No,0,40,20,0,0,0,50,0,0,0,0,20,50,No,No,No,No,0,20,50,0,50,0,0,No,No,No,No,0,50,0,0,0,0,0,0,0,0,20,0,0,No,No,No,No,0,20,0,20,0,0,0,No,No,No,No,20,0,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3863,GE,"Mono DR
+
+",37,null,null,null,null,0,0,0,0,0,0,75,0,0,0,No,Yes,No,No,75,0,0,86,0,0,0,No,Yes,No,No,86,0,0,0,0,0,0,0,0,67,0,0,0,No,Yes,No,No,67,0,0,98,0,0,0,No,Yes,No,No,98,0,0,0,0,0,0,0,0,20,0,0,0,No,Yes,No,No,20,0,0,10,0,0,0,No,Yes,No,No,10,0,0,59,0,No,59,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3106,GE,"Mono DR
+
+",43,null,null,null,null,0,0,0,0,0,0,20,60,5,0,Yes,Yes,No,No,75,10,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,Yes,Yes,No,Yes,10,10,0,0,0,0,0,0,0,0,0,10,0,Yes,Yes,No,No,0,10,0,5,0,0,0,No,Yes,No,Yes,0,5,0,80,5,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5884,GE,"Sensitive
+
+",33,null,null,null,null,0,0,0,0,0,0,63,0,0,0,No,Yes,No,Yes,60,3,0,36,0,0,0,Yes,No,No,Yes,36,0,0,0,0,0,0,0,0,84,0,0,0,No,Yes,No,Yes,79,0,5,15,0,0,0,Yes,No,No,No,8,7,0,0,0,0,0,0,0,65,0,0,0,No,Yes,No,Yes,50,15,0,3,0,0,0,Yes,No,No,No,0,3,0,47,0,No,47,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5586,GE,"Sensitive
+
+",48,null,null,null,null,0,0,0,0,0,0,20,0,0,0,No,Yes,Yes,Yes,15,5,0,5,0,0,0,No,No,No,No,0,5,0,0,0,0,0,0,0,30,10,0,0,No,Yes,Yes,Yes,32,8,0,30,0,0,0,No,Yes,Yes,Yes,25,5,0,0,0,0,0,0,0,40,12,0,0,No,Yes,Yes,Yes,35,17,0,40,10,0,0,No,Yes,Yes,Yes,42,8,0,61,0,No,61,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5815,GE,MDR non XDR,40,16.26,null,null,null,0,0,0,0,0,0,46,0,0,0,No,No,No,No,44,2,0,11,1,0,0,No,Yes,No,No,11,1,0,0,0,0,0,0,0,60,7,0,0,No,No,No,No,62,5,0,25,0,0,0,No,Yes,No,No,25,0,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,4,1,0,9,2,0,0,No,Yes,No,No,10,1,0,31,0,No,31,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1358,GE,MDR non XDR,24,18.61,5.3,44,60,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,35,[NO,[NO,[NO,No,Yes,Yes,Yes,33,2,[NO,[NO,[NO,[NO,[NO,[NO,[NO,50,[NO,[NO,[NO,Yes,Yes,Yes,Yes,49,1,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,18,0,No,18,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5875,GE,"Sensitive
+
+",23,null,null,null,null,0,0,0,0,0,0,8,0,0,0,Yes,Yes,Yes,Yes,5,2,1,10,0,0,0,Yes,Yes,Yes,Yes,7,2,1,0,0,0,0,0,0,15,0,0,0,Yes,Yes,Yes,Yes,8,7,0,15,0,0,0,Yes,Yes,Yes,Yes,10,3,2,0,0,0,0,0,0,13,0,0,0,Yes,Yes,Yes,Yes,10,3,0,18,0,0,0,Yes,Yes,Yes,Yes,12,4,2,19,0,No,19,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5810,GE,MDR non XDR,40,"215,510.2‘",null,null,null,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,7,0,0,0,Yes,No,Yes,Yes,4,3,0,0,0,0,0,0,0,11,0,0,0,No,No,Yes,Yes,4,5,2,8,4,0,0,Yes,No,Yes,Yes,7,4,1,0,0,0,0,0,0,4,0,0,0,Yes,No,Yes,Yes,3,1,0,6,0,0,0,Yes,No,Yes,Yes,3,2,1,15,0,No,15,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+18734,GE,"Sensitive
+
+",65,null,null,null,null,50,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,30,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,0,0,30,0,0,0,No,No,No,No,30,0,0,20,0,0,0,No,No,No,No,20,0,0,45,5,No,85,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+19336,GE,"Poly DR
+
+",53,null,null,null,null,30,0,0,80,0,0,0,50,0,0,No,No,No,No,0,50,0,0,20,0,0,No,No,No,No,0,20,0,20,0,0,0,0,0,0,80,0,0,No,No,No,No,0,80,0,0,80,0,0,No,No,No,No,0,80,0,0,0,0,20,0,0,0,70,0,0,No,No,No,No,0,70,0,0,40,0,0,No,No,No,No,0,40,0,100,10,No,140,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17545,GE,"Sensitive
+
+",58,null,null,null,null,10,0,0,80,0,0,5,0,0,0,No,No,No,No,5,0,0,0,0,0,0,Yes,No,No,No,0,0,0,20,0,0,0,0,0,20,0,0,0,Yes,No,No,No,20,0,0,20,0,0,0,Yes,No,No,No,20,0,0,0,0,0,0,0,0,10,0,0,0,Yes,No,No,No,10,0,0,20,0,0,0,Yes,No,No,No,20,0,0,50,0,No,90,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+18764,GE,"Sensitive
+
+",58,null,null,null,null,20,0,0,0,60,0,0,40,0,0,No,No,No,No,0,40,0,0,30,0,0,No,No,No,No,0,30,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,20,5,0,No,No,No,No,0,20,5,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,10,10,0,No,No,No,No,0,10,10,100,0,No,140,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17537,GE,"Sensitive
+
+",60,null,null,null,null,0,0,0,26,0,0,28,8,0,0,Yes,Yes,No,No,28,8,0,21,3,0,0,No,Yes,No,No,21,3,0,0,0,0,0,0,0,20,0,0,0,Yes,Yes,No,No,18,2,0,23,2,0,0,Yes,Yes,No,No,22,3,0,0,0,0,0,0,0,6,2,0,0,No,No,No,No,5,3,0,19,4,0,0,Yes,Yes,No,No,19,4,0,28,0,No,68,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+18859,GE,"Sensitive
+
+",73,null,null,null,null,50,0,0,5,0,0,0,20,0,0,No,No,No,No,0,20,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,20,0,0,0,70,0,0,No,No,No,No,0,70,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,100,0,No,140,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+18733,GE,"Sensitive
+
+",60,null,null,null,null,40,0,0,0,100,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,45,0,No,85,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8400,GE,"Sensitive
+
+",55,null,null,null,null,20,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,35,0,No,75,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17478,GE,"Sensitive
+
+",59,null,null,null,null,0,0,0,0,80,0,5,0,0,0,No,No,No,No,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,5,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,0,0,40,0,0,0,No,No,No,No,40,0,0,40,0,0,0,No,No,No,No,40,0,0,35,0,No,75,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17480,GE,"Sensitive
+
+",57,null,null,null,null,5,0,0,0,80,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,No,No,No,No,0,0,0,10,0,0,0,30,0,20,0,0,0,No,No,No,No,20,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,0,0,40,0,0,0,No,No,No,No,40,0,0,40,0,0,0,No,No,No,No,40,0,0,80,0,No,120,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16603,GE,"Sensitive
+
+",67,null,null,null,null,0,0,0,0,0,0,62,2,0,0,Yes,Yes,Yes,Yes,56,4,4,31,0,0,0,Yes,Yes,No,No,27,4,0,0,0,0,0,0,0,50,9,0,0,Yes,Yes,Yes,Yes,50,5,4,33,2,0,0,Yes,Yes,No,No,32,3,0,0,0,0,0,0,0,10,0,0,0,Yes,Yes,No,No,8,2,0,8,0,0,0,Yes,Yes,No,No,8,0,0,35,0,No,35,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16605,GE,"Sensitive
+
+",54,null,null,null,null,0,0,0,0,0,0,25,3,0,0,Yes,Yes,Yes,Yes,20,8,0,42,6,0,0,Yes,Yes,Yes,No,38,10,0,0,0,0,0,0,0,39,4,0,0,Yes,Yes,Yes,Yes,38,5,0,30,4,0,0,Yes,Yes,Yes,No,30,4,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,9,0,0,0,Yes,Yes,Yes,No,7,2,0,30,6,No,30,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17452,GE,"Mono DR
+
+",33,null,null,null,null,0,0,0,5,0,0,5,0,0,0,Yes,No,No,No,5,0,0,0,0,0,0,No,No,No,No,0,0,0,10,0,0,40,0,0,20,0,0,0,Yes,No,No,No,20,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,70,0,No,110,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17447,GE,"Sensitive
+
+",63,null,null,null,null,0,0,0,0,0,0,31,2,0,0,Yes,Yes,Yes,No,30,3,0,4,0,0,0,Yes,Yes,Yes,Yes,4,0,0,0,0,0,0,0,0,34,0,0,0,Yes,Yes,Yes,No,33,1,0,11,0,0,0,Yes,Yes,No,No,10,1,0,0,0,0,0,0,0,27,0,0,0,Yes,Yes,Yes,No,25,2,0,24,0,0,0,Yes,Yes,No,No,22,2,0,23,0,No,23,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17507,GE,"Mono DR
+
+",36,null,null,null,null,0,0,0,80,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,40,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,5,0,0,0,0,0,0,No,No,No,No,0,0,0,45,0,No,85,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17504,GE,"Sensitive
+
+",56,null,null,null,null,5,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,15,0,0,0,No,No,No,No,15,0,0,0,0,0,0,0,0,25,0,0,0,No,No,No,No,25,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,0,0,50,0,0,0,No,No,No,No,50,0,0,10,0,0,0,No,No,No,No,10,0,0,50,0,No,90,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17492,GE,"Sensitive
+
+",52,null,null,null,null,0,0,0,0,0,0,27,0,0,0,Yes,Yes,No,No,22,5,0,6,0,0,0,Yes,Yes,No,No,6,0,0,0,0,0,0,0,0,30,0,0,0,Yes,Yes,No,No,30,0,0,11,2,1,0,Yes,Yes,No,No,10,3,1,0,0,0,0,0,0,34,0,0,0,Yes,Yes,Yes,No,30,4,0,36,0,0,0,Yes,Yes,No,No,26,10,0,27,0,No,27,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17425,GE,"Mono DR
+
+",75,null,null,null,null,0,0,0,0,0,0,5,0,0,0,No,Yes,No,No,5,0,0,53,0,0,0,No,Yes,Yes,No,53,0,0,0,0,0,0,0,0,17,0,0,0,No,Yes,No,No,17,0,0,54,0,0,0,Yes,Yes,No,No,54,0,0,0,0,0,0,0,0,20,0,0,0,No,Yes,No,No,20,0,0,51,0,0,0,No,Yes,Yes,No,51,0,0,35,0,No,35,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17378,GE,"Sensitive
+
+",38,null,null,null,null,10,0,0,10,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,25,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,No,No,No,No,0,0,0,85,0,No,125,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15950,GE,"Sensitive
+
+",59,null,null,null,null,5,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,20,0,0,No,No,No,No,0,20,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15539,GE,"Sensitive
+
+",36,null,null,null,null,40,0,0,25,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,30,0,0,15,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,15,0,0,0,No,No,No,No,15,0,0,10,0,0,0,No,No,No,No,10,0,0,55,0,No,95,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16675,GE,"Mono DR
+
+",71,null,null,null,null,20,0,0,5,0,0,20,0,0,0,Yes,No,No,No,20,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,5,0,0,0,Yes,No,No,No,5,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,5,0,0,5,0,0,0,Yes,No,No,No,5,0,0,0,0,0,0,No,No,No,No,0,0,0,30,0,No,70,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16651,GE,"Sensitive
+
+",87,null,null,null,null,5,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,0,No,No,No,No,5,0,0,0,0,0,0,80,0,0,0,0,0,No,No,No,No,0,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,No,No,No,No,20,0,0,65,10,No,105,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16283,GE,"Sensitive
+
+",32,null,null,null,null,20,0,0,20,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,30,0,0,10,0,0,10,0,0,0,No,No,No,No,10,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,40,0,0,0,No,No,No,No,40,0,0,85,0,No,125,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16289,GE,"Sensitive
+
+",47,null,null,null,null,5,0,0,50,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,5,0,0,10,0,0,0,No,No,No,No,10,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,10,0,0,0,No,No,No,No,10,0,0,10,0,0,0,No,No,No,No,10,0,0,35,0,No,75,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15857,GE,MDR non XDR,39,"243,024.8'",null,null,null,5,0,0,25,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,60,0,No,100,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15586,GE,"Sensitive
+
+",72,null,null,null,null,5,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,10,0,0,0,No,No,No,No,10,0,0,5,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,40,0,0,0,No,No,No,No,40,0,0,65,0,No,105,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15580,GE,"Mono DR
+
+",73,null,null,null,null,0,0,0,0,0,0,15,0,0,0,No,No,No,No,15,0,0,10,0,0,0,No,No,No,No,10,0,0,5,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,15,0,0,0,No,No,No,No,15,0,0,0,0,0,0,0,0,10,0,0,0,No,No,No,No,10,0,0,20,0,0,0,No,No,No,No,20,0,0,45,0,No,85,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15543,GE,"Sensitive
+
+",59,null,null,null,null,0,0,0,0,0,0,25,0,0,0,No,No,No,No,25,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,5,0,0,25,0,0,0,No,No,No,No,25,0,0,40,0,0,0,No,No,No,No,40,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,30,0,0,0,No,No,No,No,30,0,0,45,0,No,85,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15460,GE,"Sensitive
+
+",29,null,null,null,null,60,0,0,80,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,15,0,0,70,0,0,15,0,0,0,No,No,No,No,15,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,15,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15454,GE,"Sensitive
+
+",80,null,null,null,null,5,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,50,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,0,0,0,20,0,0,No,No,No,No,0,20,0,0,0,0,0,Yes,No,No,No,0,0,0,20,0,No,60,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15301,GE,"Sensitive
+
+",52,null,null,null,null,0,12,0,0,15,0,0,0,18,0,No,No,No,No,0,18,0,0,21,0,0,No,No,No,No,0,21,0,5,0,0,0,0,7,0,0,9,0,No,No,No,No,9,0,0,12,0,0,0,No,No,No,No,6,6,0,0,0,0,6,0,0,0,0,0,0,No,No,No,No,0,0,0,4,0,0,0,No,No,No,No,0,4,0,61,0,No,101,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15365,GE,"Sensitive
+
+",56,null,null,null,null,5,0,0,60,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,25,0,No,65,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15281,GE,"Mono DR
+
+",26,null,null,null,null,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,20,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,No,No,No,No,0,0,0,65,0,No,105,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15283,GE,MDR non XDR,51,27.18,null,null,null,0,0,0,5,0,0,5,0,0,0,No,No,No,No,5,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,No,No,No,No,0,0,0,70,0,No,110,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15237,GE,"Sensitive
+
+",83,null,null,null,null,50,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,100,0,No,140,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14937,GE,"Mono DR
+
+",59,null,null,null,null,0,0,0,30,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,25,0,0,0,No,No,No,No,25,0,0,0,0,0,0,0,0,25,0,0,0,No,No,No,No,25,0,0,20,0,0,0,No,No,No,No,20,0,0,40,0,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14926,GE,"Mono DR
+
+",67,null,null,null,null,0,0,0,20,0,0,0,0,0,0,Yes,Yes,No,No,0,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,Yes,No,No,0,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,Yes,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,80,0,No,120,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14923,GE,"Sensitive
+
+",51,null,null,null,null,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,15,0,0,0,No,No,No,No,15,0,0,25,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,30,0,No,70,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14879,GE,"Sensitive
+
+",55,null,null,null,null,20,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,Yes,No,No,0,0,0,5,0,0,0,Yes,No,No,No,5,0,0,0,0,0,0,0,0,0,0,0,0,Yes,Yes,No,No,0,0,0,5,0,0,0,No,No,No,No,0,5,0,10,0,No,50,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14869,GE,"Sensitive
+
+",25,null,null,null,null,60,0,0,80,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,15,0,0,20,0,0,15,0,0,0,No,No,No,No,0,15,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,35,0,0,25,0,0,0,No,No,No,No,0,25,0,0,0,0,0,No,No,No,No,0,0,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15107,GE,"Sensitive
+
+",51,null,null,null,null,5,0,0,5,0,0,20,0,0,0,No,No,No,No,20,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,40,0,0,0,No,No,No,No,40,0,0,35,0,0,0,No,No,No,No,35,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,20,0,0,0,No,No,No,No,20,0,0,5,0,No,45,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13328,GE,"Sensitive
+
+",58,null,null,null,null,0,0,0,20,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,15,0,0,0,No,No,No,No,15,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,25,0,0,0,No,No,No,No,25,0,0,20,0,0,0,No,No,No,No,20,0,0,20,0,No,60,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13110,GE,MDR non XDR,31,22.49,null,null,null,30,0,0,10,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,50,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15049,GE,"Mono DR
+
+",41,null,null,null,null,40,0,0,25,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,30,0,0,50,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,30,0,0,0,0,0,0,No,No,No,No,0,0,0,50,0,0,0,No,No,No,No,50,0,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3169,GE,MDR non XDR,49,19.96,null,null,null,0,0,0,15,0,0,78,0,0,0,Yes,Yes,Yes,Yes,46,32,0,62,2,0,0,Yes,Yes,Yes,Yes,38,26,0,0,0,0,0,0,0,52,0,0,0,Yes,Yes,Yes,Yes,40,12,0,50,0,0,0,Yes,Yes,Yes,Yes,43,7,0,0,0,0,0,0,0,22,0,0,0,Yes,No,No,Yes,0,22,0,30,0,0,0,Yes,No,No,Yes,0,30,0,52,0,No,92,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14682,GE,"Mono DR
+
+",42,null,null,null,null,0,0,0,0,0,0,5,0,0,0,No,No,No,No,5,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,10,0,0,0,No,No,No,No,10,0,0,25,0,0,0,No,No,No,No,25,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,15,0,0,0,No,No,No,No,15,0,0,35,0,No,35,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14677,GE,"Sensitive
+
+",43,null,null,null,null,0,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,10,0,0,20,0,0,0,No,No,No,No,0,20,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,No,60,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14608,GE,"Sensitive
+
+",45,null,null,null,null,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,20,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,25,0,No,65,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14600,GE,"Mono DR
+
+",36,null,null,null,null,10,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,15,0,0,0,No,No,No,No,15,0,0,0,0,0,0,0,0,15,0,0,0,No,No,No,No,15,0,0,15,0,0,0,No,No,No,No,15,0,0,50,0,No,90,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14727,GE,"Sensitive
+
+",35,null,null,null,null,19,0,0,18,0,0,41,5,0,0,Yes,Yes,Yes,No,40,6,0,54,5,0,0,Yes,Yes,Yes,Yes,54,5,0,0,0,0,0,0,0,48,3,0,0,Yes,Yes,Yes,No,42,9,0,43,4,0,0,Yes,Yes,Yes,Yes,42,5,0,0,0,0,0,0,0,27,1,0,0,No,No,No,No,23,5,0,31,2,0,0,Yes,Yes,No,No,30,3,0,51,0,No,91,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13143,GE,"Sensitive
+
+",56,null,null,null,null,5,0,0,15,0,0,0,0,0,0,No,No,No,Yes,0,0,0,0,0,0,0,No,No,No,No,0,0,0,10,0,0,20,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,15,0,0,0,No,No,No,No,15,0,0,80,0,No,120,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13137,GE,"Sensitive
+
+",42,null,null,null,null,10,0,0,25,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,5,0,0,5,0,0,0,No,No,No,No,5,0,0,15,0,0,0,No,No,No,No,15,0,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,5,0,0,10,0,0,0,No,No,No,No,10,0,0,40,0,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12909,GE,MDR non XDR,38,50,null,null,null,10,0,0,20,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,10,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,No,No,No,No,0,0,0,60,0,No,100,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13059,GE,"Mono DR
+
+",62,null,null,null,null,0,0,0,30,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,Yes,No,No,No,0,0,0,5,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,35,0,No,75,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13057,GE,"Sensitive
+
+",54,null,null,null,null,0,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,15,0,0,5,0,0,0,No,No,No,No,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,0,No,No,No,No,5,0,0,60,0,No,100,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12904,GE,"Sensitive
+
+",42,null,null,null,null,0,0,0,0,0,0,10,0,0,0,No,No,No,No,10,0,0,5,0,0,0,No,No,No,No,5,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,15,0,0,0,No,No,No,No,15,0,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,5,0,0,10,0,0,0,No,No,No,No,10,0,0,15,5,No,15,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12761,GE,"Sensitive
+
+",55,null,null,null,null,0,0,0,5,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,5,0,0,15,0,0,0,No,No,No,No,15,0,0,5,0,0,0,No,No,No,No,5,0,0,0,0,0,0,0,0,10,0,0,0,No,No,No,No,10,0,0,5,0,0,0,No,No,No,No,5,0,0,35,0,No,75,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12222,GE,"Sensitive
+
+",47,null,null,null,null,0,0,0,25,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,15,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,10,0,0,15,0,0,0,No,No,No,No,15,0,0,0,0,0,0,No,No,No,No,0,0,0,85,0,No,125,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12730,GE,"Sensitive
+
+",61,null,null,null,null,25,0,0,10,0,0,63,2,0,0,Yes,Yes,Yes,Yes,62,3,0,67,16,0,0,Yes,Yes,Yes,Yes,70,13,0,0,0,0,0,0,0,73,8,0,0,Yes,Yes,Yes,Yes,71,10,0,76,13,0,0,Yes,Yes,Yes,Yes,77,12,0,0,0,0,0,0,0,72,4,0,0,Yes,Yes,Yes,Yes,72,4,0,74,4,0,0,Yes,Yes,Yes,Yes,74,4,0,88,0,No,128,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12718,GE,"Sensitive
+
+",56,null,null,null,null,0,0,0,10,0,0,63,3,0,0,Yes,Yes,Yes,No,62,2,2,72,4,0,0,Yes,Yes,Yes,No,67,9,0,11,0,0,0,0,0,62,4,0,0,Yes,Yes,Yes,Yes,60,6,0,49,5,0,0,Yes,Yes,No,No,51,3,0,0,0,0,0,0,0,45,1,0,0,Yes,Yes,Yes,No,42,4,0,23,0,0,0,Yes,Yes,Yes,No,20,3,0,60,0,No,100,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12585,GE,"Sensitive
+
+",70,null,null,null,null,0,0,0,0,0,0,55,2,0,0,Yes,Yes,No,No,51,6,0,65,0,0,0,Yes,Yes,Yes,Yes,61,4,0,0,0,0,0,0,0,23,4,0,0,Yes,Yes,Yes,No,22,5,0,58,0,0,0,Yes,Yes,Yes,Yes,53,5,0,0,0,0,0,0,0,21,0,0,0,Yes,Yes,No,No,17,4,0,61,0,0,0,Yes,Yes,No,No,61,0,0,59,11,No,59,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6217,GE,"Poly DR
+
+",65,null,null,null,null,30,0,0,0,0,0,77,0,0,0,No,Yes,No,No,77,0,0,55,0,0,0,No,Yes,No,No,55,0,0,0,38,0,0,0,0,75,0,0,0,No,Yes,Yes,No,75,0,0,58,0,0,0,No,Yes,No,No,58,0,0,0,0,0,0,0,0,68,0,0,0,No,Yes,No,No,68,0,0,51,0,0,0,No,Yes,No,No,51,0,0,75,0,No,115,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12337,GE,"Sensitive
+
+",59,null,null,null,null,0,0,0,0,0,0,72,3,0,0,No,Yes,Yes,Yes,72,3,0,18,1,0,0,No,Yes,No,Yes,18,1,0,0,0,0,0,0,0,58,0,0,0,No,No,Yes,Yes,58,0,0,15,0,0,0,No,Yes,No,Yes,15,0,0,0,0,0,0,0,0,40,0,0,0,No,Yes,Yes,No,40,0,0,14,0,0,0,No,Yes,No,No,14,0,0,37,0,No,37,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12240,GE,"Sensitive
+
+",44,null,null,null,null,0,0,0,0,0,0,15,0,0,0,No,Yes,No,No,15,0,0,74,0,0,0,No,Yes,Yes,Yes,74,0,0,0,0,0,0,0,0,63,0,0,0,No,Yes,Yes,No,63,0,0,85,2,0,0,Yes,Yes,Yes,Yes,85,2,0,0,0,0,0,0,0,18,0,0,0,No,Yes,No,No,18,0,0,28,0,0,0,No,Yes,Yes,Yes,28,0,0,50,0,No,50,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12239,GE,"Sensitive
+
+",44,null,null,null,null,18,0,0,20,0,0,21,0,0,0,Yes,Yes,No,No,15,6,0,48,0,0,0,Yes,Yes,No,No,45,3,0,22,0,0,11,0,0,33,0,0,0,No,Yes,No,No,33,0,0,41,1,0,0,Yes,Yes,Yes,No,41,1,0,0,0,0,0,0,0,9,0,0,0,No,Yes,No,No,9,0,0,13,0,0,0,Yes,Yes,No,No,10,3,0,40,0,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12294,GE,"Sensitive
+
+",87,null,null,null,null,10,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,0,No,No,No,No,5,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,10,0,0,0,No,No,No,No,10,0,0,5,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,Yes,Yes,No,No,0,0,0,50,0,No,90,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12267,null,"Sensitive
+
+",60,null,null,null,null,5,0,0,15,0,0,15,0,0,0,No,No,No,No,15,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,20,0,0,20,0,0,0,No,No,No,No,20,0,0,5,0,0,0,No,No,No,No,5,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,Yes,No,0,0,0,70,10,Yes,110,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12154,GE,"Sensitive
+
+",66,null,null,null,null,5,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,50,0,0,0,No,No,No,No,50,0,0,5,0,0,0,0,0,50,0,0,0,No,No,No,No,50,0,0,40,0,0,0,No,No,No,No,40,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,100,0,No,140,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12044,GE,"Sensitive
+
+",44,null,null,null,null,0,0,0,5,0,0,15,0,0,0,No,No,No,No,15,0,0,10,0,0,0,No,No,No,No,10,0,0,5,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,0,0,15,0,0,0,No,No,No,No,15,0,0,15,0,0,0,No,No,No,No,15,0,0,35,0,No,75,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11865,GE,"Sensitive
+
+",59,null,null,null,null,0,0,0,50,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,20,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,40,0,0,0,No,No,No,No,40,0,0,80,0,0,0,No,No,No,No,80,0,0,100,0,No,140,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11863,GE,"Sensitive
+
+",60,null,null,null,null,0,0,0,0,0,0,50,0,0,0,No,No,No,No,50,0,0,80,0,0,0,No,No,No,No,80,0,0,5,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,90,0,0,0,No,No,No,No,90,0,0,10,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,No,No,No,No,20,0,0,100,0,No,140,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11845,GE,"Sensitive
+
+",63,null,null,null,null,60,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,50,0,0,0,No,No,No,No,50,0,0,20,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,100,0,0,0,No,No,No,No,100,0,0,0,0,0,0,0,0,50,0,0,0,No,No,No,No,50,0,0,50,0,0,0,No,No,No,No,50,0,0,100,5,No,140,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11774,GE,"Sensitive
+
+",55,null,null,null,null,20,0,0,10,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,40,0,0,0,No,No,No,No,40,0,0,40,0,0,0,No,No,No,No,40,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,40,0,0,0,No,No,No,No,40,0,0,80,0,No,120,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11707,GE,"Sensitive
+
+",47,null,null,null,null,0,0,0,17,0,0,68,22,0,0,Yes,Yes,Yes,Yes,80,10,0,63,17,0,0,Yes,Yes,Yes,Yes,65,15,0,0,0,0,0,0,0,62,10,0,0,Yes,Yes,Yes,Yes,62,10,0,35,0,0,0,Yes,Yes,Yes,No,30,5,0,0,0,0,0,0,0,8,0,0,0,No,Yes,No,No,8,0,0,6,1,0,0,Yes,Yes,No,No,6,1,0,52,0,No,92,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11672,null,MDR non XDR,38,"179,591.8‘",null,null,null,10,0,0,20,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,10,0,0,0,No,No,No,No,5,5,0,0,0,0,0,0,0,15,0,0,0,No,No,No,No,15,0,0,15,0,0,0,No,No,No,No,15,0,0,80,0,No,120,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11699,GE,"Mono DR
+
+",28,null,null,null,null,30,0,0,0,0,0,41,1,0,0,Yes,Yes,No,No,40,2,0,12,1,1,0,Yes,Yes,No,No,12,2,0,0,0,0,0,0,0,32,0,0,0,Yes,Yes,No,No,30,2,0,15,2,0,0,Yes,Yes,No,No,13,4,0,0,0,0,0,0,0,38,0,0,0,No,Yes,No,No,38,0,0,7,1,0,0,Yes,Yes,No,No,7,1,0,30,0,No,70,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11669,GE,"Sensitive
+
+",32,null,null,null,null,0,0,0,0,0,0,55,3,0,0,Yes,Yes,No,No,52,6,0,38,0,0,0,Yes,Yes,No,No,35,3,0,0,0,0,0,0,0,72,5,0,0,Yes,Yes,No,No,73,4,0,65,3,0,0,Yes,Yes,No,No,67,1,0,0,0,0,0,0,0,34,0,0,0,No,Yes,No,No,34,0,0,32,0,0,0,Yes,Yes,No,No,30,2,0,52,0,No,52,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11664,GE,"Mono DR
+
+",68,null,null,null,null,0,0,0,0,0,0,52,3,0,0,Yes,Yes,No,No,53,2,0,23,2,0,0,Yes,Yes,No,Yes,22,3,0,0,0,0,0,0,0,30,6,0,0,Yes,Yes,Yes,No,31,5,0,38,1,0,0,Yes,Yes,No,Yes,38,1,0,0,0,0,0,0,0,16,0,0,0,Yes,Yes,No,No,14,2,0,41,0,0,0,Yes,Yes,No,No,40,1,0,37,0,No,37,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11121,GE,"Mono DR
+
+",35,null,null,null,null,0,0,0,0,0,0,18,2,0,0,Yes,Yes,No,No,18,1,1,52,6,0,0,Yes,Yes,Yes,Yes,52,6,0,0,0,0,0,0,0,6,1,0,0,Yes,Yes,No,No,6,1,0,5,2,0,0,Yes,Yes,No,No,4,3,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,10,3,0,0,Yes,Yes,No,No,12,1,0,19,9,No,19,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10865,GE,"Sensitive
+
+",54,null,null,null,null,0,0,0,12,0,0,23,1,0,0,Yes,Yes,No,No,20,4,0,37,12,1,0,Yes,Yes,No,No,47,3,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,5,0,0,0,No,Yes,No,No,5,0,0,0,0,0,0,No,No,No,No,0,0,0,39,0,No,79,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10819,GE,"Sensitive
+
+",59,null,null,null,null,0,0,0,0,0,0,52,2,0,0,Yes,Yes,Yes,Yes,52,2,0,65,2,0,0,Yes,Yes,Yes,No,64,3,0,0,0,0,0,0,0,54,0,0,0,No,Yes,Yes,Yes,54,0,0,51,0,0,0,No,Yes,Yes,No,51,0,0,0,0,0,0,0,0,41,0,0,0,No,Yes,No,No,41,0,0,30,0,0,0,No,Yes,No,No,30,0,0,50,0,No,50,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10341,null,"Sensitive
+
+",62,null,null,null,null,10,0,0,15,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,30,0,0,0,No,No,No,No,30,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,15,0,0,0,No,No,No,No,15,0,0,70,0,No,110,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10938,null,"Sensitive
+
+",51,null,null,null,null,5,0,0,5,0,0,10,0,0,0,No,No,No,No,10,0,0,5,0,0,0,No,No,No,No,5,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,No,No,No,No,0,0,0,80,5,Yes,120,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10937,null,"Sensitive
+
+",68,null,null,null,null,5,0,0,40,0,0,0,0,0,0,No,No,No,No,0,0,0,30,0,0,0,No,No,No,No,30,0,0,0,0,0,0,0,0,10,0,0,0,No,No,No,No,10,0,0,25,0,0,0,No,No,No,No,25,0,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,5,0,0,15,0,0,0,No,No,No,No,15,0,0,50,0,No,90,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10927,null,"Sensitive
+
+",80,null,null,null,null,0,0,0,50,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,5,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,5,0,0,5,0,0,0,No,No,No,No,5,0,0,45,10,No,85,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10924,null,"Sensitive
+
+",48,null,null,null,null,5,0,0,10,0,0,10,0,0,0,No,No,No,No,5,5,0,20,0,0,0,No,No,No,No,10,10,0,0,0,0,0,0,0,10,0,0,0,No,No,No,No,5,5,0,15,0,0,0,No,No,No,No,15,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,10,10,0,5,0,0,0,No,No,No,No,5,0,0,35,0,No,75,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10923,null,"Sensitive
+
+",79,null,null,null,null,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,15,0,0,0,No,No,No,No,15,0,0,30,0,0,0,No,No,No,No,30,0,0,0,0,0,0,0,0,15,0,0,0,No,No,No,No,15,0,0,40,0,0,0,No,No,No,No,20,20,0,40,0,No,40,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10929,null,"Sensitive
+
+",55,null,null,null,null,0,0,0,15,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,10,0,0,0,No,No,No,No,10,0,0,15,0,0,0,0,0,0,0,0,0,No,Yes,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,60,0,No,100,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10458,null,"Sensitive
+
+",31,null,null,null,null,0,0,0,0,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,30,10,No,30,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10455,null,"Sensitive
+
+",56,null,null,null,null,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,5,0,0,0,No,Yes,No,No,5,0,0,15,0,0,0,No,No,No,No,15,0,0,0,0,0,0,0,0,5,0,0,0,No,Yes,No,No,5,0,0,5,0,0,0,No,No,No,No,5,0,0,20,0,No,20,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10636,GE,"Mono DR
+
+",28,null,null,null,null,0,0,0,0,0,0,8,0,0,0,Yes,Yes,No,No,6,2,0,16,2,0,0,Yes,Yes,No,No,13,5,0,0,0,0,0,0,0,39,6,0,0,Yes,Yes,Yes,No,42,3,0,4,0,0,0,Yes,Yes,No,No,3,1,0,8,0,0,0,0,0,47,2,0,0,Yes,Yes,No,No,43,6,0,6,0,0,0,Yes,Yes,No,No,4,2,0,23,0,No,63,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10613,GE,"Sensitive
+
+",50,null,null,null,null,0,0,0,0,33,0,75,4,0,0,Yes,Yes,Yes,No,74,3,2,56,1,1,0,Yes,Yes,Yes,No,45,12,1,0,0,0,0,0,0,67,2,0,0,Yes,Yes,Yes,No,63,6,0,67,18,0,0,Yes,Yes,Yes,No,70,15,0,0,0,0,0,0,0,21,4,0,0,Yes,Yes,Yes,No,20,5,0,33,16,0,0,Yes,Yes,No,No,32,17,0,71,0,No,111,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10415,null,"Sensitive
+
+",56,null,null,null,null,0,0,0,30,0,0,75,3,0,0,No,Yes,No,No,78,0,0,60,2,0,0,Yes,Yes,No,Yes,60,1,1,0,0,0,0,0,0,68,2,0,0,No,Yes,No,No,70,0,0,67,2,0,0,No,Yes,No,Yes,69,0,0,0,0,0,0,0,0,30,0,0,0,No,Yes,No,No,30,0,0,55,0,0,0,No,Yes,No,No,55,0,0,67,0,No,107,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10402,null,MDR non XDR,47,20.28,null,null,null,10,0,0,0,0,0,41,4,0,0,Yes,Yes,Yes,No,42,3,0,42,7,0,0,Yes,Yes,No,No,44,5,0,0,0,0,0,0,0,18,0,0,0,No,Yes,No,No,18,0,0,38,4,0,0,Yes,Yes,No,No,39,3,0,0,0,0,0,0,0,39,5,0,0,Yes,Yes,No,No,40,4,0,0,0,0,0,No,No,No,No,0,0,0,40,0,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10414,null,"Sensitive
+
+",81,null,null,null,null,0,0,0,0,0,0,65,10,0,0,Yes,Yes,No,No,62,13,0,86,0,0,0,Yes,Yes,Yes,No,76,10,0,0,0,0,0,0,0,67,2,0,0,Yes,Yes,No,No,63,6,0,75,0,0,0,Yes,Yes,Yes,No,65,10,0,0,0,0,0,0,0,16,0,0,0,No,Yes,No,Yes,16,0,0,38,0,0,0,No,Yes,No,No,38,0,0,61,0,No,61,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6321,GE,"Mono DR
+
+",48,"2,25,895.50",null,null,null,25,0,0,0,0,0,8,2,0,0,Yes,Yes,Yes,Yes,8,2,0,3,2,0,0,Yes,Yes,Yes,Yes,3,2,0,0,0,0,0,0,0,16,2,0,0,Yes,Yes,Yes,Yes,15,3,0,14,1,0,0,Yes,Yes,Yes,Yes,11,4,0,0,0,0,0,0,0,12,2,0,0,Yes,Yes,Yes,Yes,10,4,0,6,0,0,0,Yes,Yes,No,No,2,2,2,21,0,No,61,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9849,GE,"Sensitive
+
+",35,null,null,null,null,0,0,0,0,0,0,51,2,0,0,Yes,Yes,No,No,50,3,0,46,2,0,0,Yes,Yes,No,No,45,3,0,0,0,0,0,0,0,37,1,0,0,Yes,Yes,No,No,32,6,0,24,4,0,0,Yes,Yes,No,No,24,4,0,0,0,0,0,0,0,25,0,0,0,Yes,Yes,No,No,20,5,0,31,4,0,0,Yes,Yes,No,No,33,2,0,37,0,No,37,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9720,GE,"Mono DR
+
+",30,null,null,null,null,0,0,0,0,0,100,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,95,0,No,135,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9469,GE,"Sensitive
+
+",49,null,null,null,null,15,0,0,0,0,0,0,20,0,0,No,No,No,No,0,20,0,0,5,0,0,No,No,No,No,0,5,0,0,0,0,0,0,0,0,5,0,0,No,No,No,No,0,5,0,0,15,5,0,No,No,No,No,0,15,5,0,0,0,0,0,0,0,10,0,0,No,No,No,No,0,10,0,0,10,0,0,No,No,No,No,0,10,0,55,0,No,95,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8858,GE,"Poly DR
+
+",59,null,null,null,null,23,0,0,0,0,0,40,4,0,0,Yes,Yes,No,No,42,2,0,38,3,0,0,Yes,Yes,No,No,39,2,0,0,0,0,0,0,0,15,2,0,0,No,Yes,No,No,17,0,0,11,2,0,0,No,Yes,No,No,13,0,0,0,0,0,0,0,0,15,0,0,0,Yes,No,No,No,15,0,0,2,0,0,0,Yes,No,No,No,0,2,0,29,0,No,69,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8849,GE,"Sensitive
+
+",50,null,null,null,null,0,0,0,0,0,0,37,6,0,0,Yes,Yes,No,No,40,3,0,35,4,0,0,Yes,Yes,No,No,36,3,0,0,0,0,0,0,0,30,4,0,0,Yes,Yes,No,No,32,2,0,40,1,0,0,Yes,Yes,No,No,40,1,0,0,0,0,0,0,0,12,0,0,0,No,Yes,No,No,12,0,0,10,0,0,0,No,Yes,No,No,10,0,0,31,0,No,31,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8766,GE,"Sensitive
+
+",57,null,null,null,null,0,0,0,11,0,0,55,3,0,0,Yes,Yes,No,No,55,3,0,56,4,0,0,Yes,Yes,No,Yes,55,5,0,0,0,0,0,0,0,12,0,0,0,No,Yes,No,No,12,0,0,34,0,0,0,No,No,No,Yes,34,0,0,0,0,0,0,0,0,3,0,0,0,No,Yes,No,No,3,0,0,46,0,0,0,No,Yes,Yes,No,46,0,0,39,0,No,79,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8478,GE,"Mono DR
+
+",58,null,null,null,null,5,0,0,40,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,40,0,0,20,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,No,No,No,No,20,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,20,0,0,0,No,No,No,No,20,0,0,90,5,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8319,GE,"Sensitive
+
+",20,null,null,null,null,0,0,0,0,0,0,2,0,0,0,Yes,Yes,No,No,2,0,0,3,0,0,0,No,No,No,No,3,0,0,0,0,0,0,0,0,6,0,0,0,Yes,Yes,No,No,3,2,1,9,0,0,0,Yes,Yes,No,No,5,3,1,0,0,0,0,0,0,7,0,0,0,Yes,Yes,No,No,4,3,0,5,0,0,0,No,No,No,No,5,0,0,14,0,No,14,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8303,GE,"Sensitive
+
+",15,null,null,null,null,0,0,0,0,0,0,3,0,0,0,No,No,No,No,2,1,0,5,0,0,0,No,No,No,No,3,2,0,0,0,0,0,0,0,4,0,0,0,No,No,No,No,2,1,1,6,0,0,0,No,No,No,No,2,2,2,0,0,0,0,0,0,2,0,0,0,No,No,No,No,1,1,0,2,0,0,0,No,No,No,No,1,1,0,10,0,No,10,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8129,GE,"Mono DR
+
+",25,null,null,null,null,0,0,0,0,0,0,4,0,0,0,Yes,Yes,No,No,3,1,0,4,0,0,0,Yes,Yes,No,No,3,1,0,0,0,0,0,0,0,11,0,0,0,Yes,Yes,No,No,8,3,0,15,0,0,0,Yes,Yes,No,No,9,6,0,0,0,0,0,0,0,5,0,0,0,Yes,Yes,No,No,5,0,0,12,0,0,0,Yes,Yes,No,No,8,4,0,18,0,No,18,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8308,GE,"Sensitive
+
+",68,null,null,null,null,15,0,0,10,0,0,20,0,0,0,Yes,No,Yes,Yes,14,6,0,35,0,0,0,Yes,No,Yes,Yes,25,10,0,0,0,0,0,0,0,11,0,0,0,Yes,No,Yes,Yes,7,4,0,17,0,0,0,Yes,No,Yes,Yes,15,2,0,0,0,0,0,0,0,7,0,0,0,Yes,No,Yes,Yes,5,2,0,7,0,0,0,Yes,No,Yes,Yes,4,3,0,41,0,No,81,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8059,GE,"Sensitive
+
+",48,null,null,null,null,0,0,0,0,0,0,5,0,0,0,Yes,Yes,No,No,3,2,0,4,0,0,0,Yes,Yes,No,No,2,2,0,0,0,0,0,0,0,11,4,0,0,Yes,Yes,Yes,Yes,9,6,0,6,0,0,0,Yes,Yes,No,No,4,2,0,0,0,0,0,0,0,8,0,0,0,Yes,Yes,No,No,6,2,0,8,0,0,0,Yes,Yes,No,No,6,2,0,33,0,No,33,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8052,GE,"Mono DR
+
+",27,null,null,null,null,0,0,0,0,0,0,4,0,0,0,Yes,Yes,Yes,Yes,2,2,0,3,0,0,0,Yes,Yes,Yes,Yes,2,1,0,0,0,0,0,0,0,12,0,0,0,Yes,Yes,No,No,8,4,0,5,0,0,0,Yes,Yes,Yes,Yes,4,1,0,0,0,0,0,0,0,6,0,0,0,Yes,Yes,Yes,Yes,4,2,0,8,0,0,0,Yes,No,No,No,6,2,0,18,0,No,18,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8051,GE,"Mono DR
+
+",44,null,null,null,null,0,0,0,30,0,0,6,0,0,0,Yes,No,No,Yes,4,2,0,10,0,0,0,Yes,No,Yes,Yes,8,2,0,0,0,0,0,0,0,5,0,0,0,Yes,No,No,Yes,3,2,0,7,0,0,0,Yes,No,Yes,Yes,5,2,0,0,0,0,0,0,0,3,0,0,0,Yes,No,No,Yes,2,1,0,6,0,0,0,Yes,No,Yes,Yes,4,2,0,15,0,No,55,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8049,GE,"Poly DR
+
+",38,null,null,null,null,0,40,0,0,0,0,25,0,0,0,Yes,Yes,Yes,Yes,20,3,2,7,0,0,0,Yes,Yes,Yes,Yes,4,3,0,0,0,0,0,0,0,15,0,0,0,Yes,Yes,Yes,Yes,10,4,1,4,1,0,0,Yes,Yes,Yes,Yes,3,1,1,0,0,0,0,0,0,7,0,0,0,Yes,Yes,Yes,Yes,4,3,0,3,0,0,0,Yes,Yes,Yes,Yes,2,1,0,32,0,No,72,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6334,GE,"Sensitive
+
+",69,null,null,null,null,0,0,0,0,0,0,52,0,0,0,No,Yes,No,Yes,52,0,0,55,0,0,0,No,Yes,No,Yes,55,0,0,0,0,0,0,0,0,57,1,0,0,No,Yes,No,Yes,57,1,0,67,0,0,0,No,Yes,No,Yes,67,0,0,0,0,0,0,0,0,23,0,0,0,No,Yes,No,Yes,23,0,0,31,0,0,0,No,Yes,No,Yes,31,0,0,48,0,No,48,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6320,GE,MDR non XDR,40,"216,333.1.",null,null,null,0,0,0,0,0,0,5,0,0,0,Yes,Yes,Yes,Yes,2,3,0,3,0,0,0,No,No,No,No,0,2,1,0,0,0,0,0,0,6,0,0,0,Yes,Yes,Yes,Yes,0,3,3,7,3,0,0,Yes,Yes,Yes,No,3,4,3,0,0,0,0,0,0,3,0,0,0,No,No,No,No,0,2,1,5,2,0,0,No,No,No,No,0,6,1,9,0,No,9,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6318,GE,MDR non XDR,33,null,null,null,null,0,0,0,0,0,0,11,0,0,0,Yes,Yes,Yes,Yes,8,2,1,3,0,0,0,Yes,Yes,No,No,1,2,0,0,0,0,0,0,0,8,0,0,0,No,No,No,No,8,0,0,4,1,0,0,Yes,Yes,Yes,Yes,3,2,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,5,0,0,7,1,0,0,No,No,Yes,Yes,5,3,0,12,0,No,12,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6316,GE,MDR non XDR,57,"223,190.5*",null,null,null,0,0,0,0,0,0,5,0,0,0,Yes,Yes,No,No,3,2,0,3,0,0,0,No,No,No,No,2,1,0,0,0,0,0,0,0,3,1,0,0,Yes,Yes,No,No,3,1,0,7,1,0,0,Yes,Yes,No,No,6,2,0,0,0,0,0,0,0,8,1,0,0,Yes,Yes,Yes,Yes,6,3,0,4,0,0,0,No,No,No,No,3,1,0,8,0,No,8,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6063,GE,"Sensitive
+
+",81,null,null,null,null,0,0,0,0,0,0,20,0,0,0,Yes,Yes,Yes,Yes,15,5,0,30,0,0,0,Yes,No,Yes,Yes,24,6,0,0,0,0,0,0,0,8,0,0,0,Yes,No,Yes,Yes,5,3,0,8,0,0,0,Yes,No,Yes,Yes,6,2,0,0,0,0,0,0,0,10,0,0,0,Yes,No,Yes,Yes,7,3,0,14,0,0,0,Yes,No,Yes,Yes,10,4,0,27,0,No,27,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6021,GE,"Sensitive
+
+",46,null,null,null,null,0,0,0,0,0,0,20,0,0,0,Yes,No,Yes,Yes,15,3,2,25,0,0,0,Yes,No,Yes,Yes,18,5,2,0,0,0,0,0,0,18,0,0,0,Yes,No,Yes,Yes,12,4,2,25,0,0,0,Yes,No,Yes,Yes,17,5,3,0,0,0,0,0,0,15,0,0,0,Yes,No,Yes,Yes,8,4,3,18,0,0,0,Yes,No,Yes,Yes,9,5,4,51,0,No,51,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6209,GE,"Sensitive
+
+",36,null,null,null,null,12,0,0,0,45,0,85,0,0,0,No,Yes,Yes,Yes,85,0,0,70,3,0,0,No,Yes,No,Yes,73,0,0,0,0,0,10,0,0,82,0,0,0,No,Yes,No,No,82,0,0,67,0,0,0,No,Yes,No,No,67,0,0,0,0,0,0,0,0,60,0,0,0,No,Yes,No,No,60,0,0,13,0,0,0,No,No,No,No,13,0,0,75,0,No,115,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6066,GE,"Sensitive
+
+",50,null,null,null,null,0,0,0,20,0,0,9,3,0,0,Yes,Yes,Yes,Yes,8,2,2,18,3,0,0,Yes,Yes,Yes,Yes,16,3,2,0,0,0,0,0,0,15,0,0,0,Yes,Yes,Yes,Yes,12,2,1,16,4,0,0,Yes,Yes,Yes,Yes,15,5,0,0,0,0,0,0,0,7,2,0,0,No,No,No,No,9,0,0,6,1,0,0,No,No,No,No,7,0,0,18,0,No,58,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6065,GE,"Sensitive
+
+",83,null,null,null,null,0,0,0,0,0,0,0,1,0,0,No,No,No,No,1,0,0,0,2,0,0,Yes,Yes,No,No,1,0,1,0,0,0,0,0,0,4,1,0,0,No,No,No,No,1,2,2,3,1,0,0,Yes,Yes,No,No,3,0,1,0,0,0,0,0,0,4,1,0,0,Yes,Yes,Yes,No,2,3,0,0,4,0,0,Yes,Yes,No,No,2,1,1,6,0,No,6,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5945,GE,"Sensitive
+
+",39,null,null,null,null,0,35,0,0,0,0,40,0,0,0,No,Yes,No,Yes,40,0,0,35,0,0,0,No,Yes,No,Yes,35,0,0,0,0,0,0,0,0,39,0,0,0,No,Yes,No,Yes,39,0,0,48,0,0,0,No,Yes,No,Yes,48,0,0,0,0,0,0,0,0,25,0,0,0,No,Yes,No,Yes,25,0,0,35,0,0,0,No,Yes,No,Yes,35,0,0,42,0,No,82,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5807,GE,"Sensitive
+
+",30,null,null,null,null,0,0,0,0,0,0,2,0,0,0,No,No,No,No,0,0,2,30,0,0,0,Yes,Yes,Yes,Yes,20,10,0,0,0,0,0,0,0,5,0,0,0,Yes,Yes,Yes,Yes,0,0,5,57,9,0,0,Yes,Yes,Yes,Yes,48,18,0,0,0,0,0,0,0,3,0,0,0,No,No,No,No,0,0,3,25,0,0,0,Yes,Yes,Yes,Yes,20,5,0,22,0,No,22,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5724,GE,"Sensitive
+
+",42,null,null,null,null,0,0,0,0,0,0,15,8,1,0,No,No,No,No,13,9,2,8,7,0,0,No,No,No,No,10,5,0,0,0,0,0,0,0,15,1,1,0,No,No,No,No,9,7,1,13,5,0,0,No,No,No,No,14,4,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,5,0,0,20,15,0,0,No,No,No,No,25,10,0,36,0,No,36,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5723,GE,"Sensitive
+
+",44,null,null,null,null,0,0,0,0,0,0,15,0,0,0,No,Yes,Yes,Yes,10,5,0,10,0,0,0,No,Yes,Yes,Yes,8,2,0,0,0,0,0,0,0,12,5,0,0,No,Yes,Yes,Yes,10,7,0,5,0,0,0,No,Yes,No,Yes,3,2,0,0,0,0,0,0,0,15,5,0,0,No,Yes,Yes,Yes,15,5,0,7,0,0,0,No,Yes,No,Yes,5,2,0,25,0,No,25,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5872,GE,"Sensitive
+
+",36,null,null,null,null,0,0,0,0,0,0,5,0,0,0,Yes,Yes,No,Yes,3,2,0,6,0,0,0,Yes,Yes,Yes,Yes,3,3,0,0,0,0,0,0,0,8,0,0,0,Yes,No,Yes,Yes,4,2,2,6,3,0,0,No,Yes,Yes,Yes,6,3,0,0,0,0,0,0,0,12,0,0,0,Yes,Yes,No,Yes,10,2,0,5,0,0,0,Yes,Yes,Yes,Yes,2,2,1,24,0,No,24,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5809,GE,"Sensitive
+
+",32,null,null,null,null,0,0,0,0,0,0,15,5,0,0,Yes,Yes,Yes,Yes,12,6,2,8,0,0,0,Yes,Yes,Yes,Yes,4,4,0,0,0,0,0,0,0,10,8,0,0,Yes,Yes,Yes,Yes,14,2,2,10,5,0,0,Yes,Yes,Yes,Yes,9,4,2,0,0,0,0,0,0,8,0,0,0,Yes,Yes,Yes,Yes,5,3,0,12,0,0,0,Yes,Yes,Yes,Yes,7,3,2,43,0,No,43,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+4885,GE,"Poly DR
+
+",49,null,null,null,null,0,0,0,15,0,0,6,0,0,0,No,Yes,Yes,Yes,2,2,2,8,0,0,0,No,Yes,Yes,Yes,2,3,3,0,0,0,0,0,0,2,0,0,0,Yes,Yes,Yes,Yes,0,0,2,10,0,0,0,Yes,Yes,Yes,Yes,2,2,6,0,0,0,0,0,0,2,0,0,0,No,Yes,Yes,Yes,0,1,1,15,0,0,0,No,Yes,Yes,Yes,3,5,7,18,0,No,58,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1357,GE,MDR non XDR,62,20.99,null,null,64,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,15,5,[NO,[NO,No,Yes,Yes,Yes,20,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,52,[NO,[NO,[NO,No,Yes,Yes,Yes,52,[NO,[NO,55,[NO,[NO,[NO,No,Yes,Yes,Yes,55,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,26,0,No,26,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+4815,GE,"Sensitive
+
+",36,null,null,null,null,0,0,0,30,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,45,0,0,0,No,Yes,Yes,No,45,0,0,45,0,0,0,No,Yes,Yes,No,45,0,0,0,0,0,0,0,0,45,0,0,0,No,Yes,Yes,No,45,0,0,45,0,0,0,No,Yes,Yes,No,45,0,0,75,0,No,115,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+2331,GE,MDR non XDR,45,20.62,4,null,65,0,0,0,0,30,0,76,1,0,0,Yes,No,No,Yes,0,77,0,21,0,0,0,Yes,Yes,No,Yes,20,1,0,0,0,0,0,0,0,55,0,0,0,No,No,No,No,49,6,0,85,0,0,0,No,Yes,Yes,Yes,85,0,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,0,5,0,2,0,0,0,No,Yes,No,No,2,0,0,50,0,No,90,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+2781,GE,"Poly DR
+
+",42,null,null,null,null,0,0,0,20,0,0,15,10,0,0,No,No,No,No,15,5,5,70,10,0,0,Yes,Yes,No,No,65,10,5,0,0,0,0,0,0,5,10,0,0,No,No,No,No,10,5,0,30,5,0,0,Yes,Yes,No,No,25,10,0,0,0,0,0,0,0,20,35,0,0,No,No,No,No,30,20,5,20,5,0,0,Yes,No,No,No,25,0,0,95,0,No,135,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+4207,GE,"Sensitive
+
+",82,null,null,null,null,0,0,0,0,0,0,87,0,0,0,No,Yes,No,Yes,87,0,0,14,0,0,0,Yes,No,No,No,0,14,0,0,0,0,0,0,0,35,0,0,0,No,Yes,No,Yes,35,0,0,50,0,0,0,No,Yes,No,Yes,47,3,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,45,0,No,45,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3231,GE,"Poly DR
+
+",68,null,null,null,null,0,0,55,0,0,0,0,0,0,0,No,No,No,No,0,0,0,32,0,0,0,Yes,Yes,No,Yes,10,8,14,0,0,0,0,0,0,25,0,0,0,Yes,No,No,No,0,0,25,16,0,0,0,Yes,No,No,Yes,0,11,5,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,Yes,No,No,No,0,20,0,30,0,No,70,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3482,GE,"Sensitive
+
+",62,null,null,null,null,25,40,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,30,0,0,0,Yes,Yes,No,Yes,23,7,0,0,0,0,0,0,0,12,0,0,0,No,Yes,No,No,12,0,0,78,0,0,0,Yes,Yes,No,Yes,61,13,4,0,0,0,0,0,0,14,0,0,0,No,Yes,No,No,14,0,0,37,0,0,0,No,Yes,No,No,29,8,0,78,0,No,118,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1356,GE,"Poly DR
+
+",55,27.1,17.4,null,72,[NO,[NO,[NO,[NO,30,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,[NO,10,[NO,[NO,Yes,Yes,[NOT,Yes,9,1,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,5,[NO,[NO,[NO,No,Yes,No,No,5,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,19,0,No,59,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1378,GE,MDR non XDR,27,19.49,null,null,null,30,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,30,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,5,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3492,GE,"Sensitive
+
+",53,null,null,null,null,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,Yes,Yes,No,No,0,0,0,0,0,0,0,0,0,5,15,5,0,Yes,Yes,Yes,Yes,20,5,0,0,15,5,0,No,Yes,Yes,Yes,15,5,0,0,0,0,0,0,0,0,10,0,0,Yes,Yes,Yes,Yes,0,10,0,0,10,0,0,No,Yes,Yes,Yes,5,5,0,90,0,No,90,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3432,GE,"Sensitive
+
+",60,null,null,null,null,0,0,0,0,15,5,0,20,25,0,No,No,No,No,10,35,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,0,0,0,10,0,0,No,Yes,No,No,10,0,0,0,15,0,0,No,Yes,No,No,0,15,0,0,0,0,0,0,0,0,10,0,0,No,Yes,No,No,0,10,0,0,10,0,0,No,Yes,No,No,0,10,0,30,0,No,70,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3404,GE,"Sensitive
+
+",56,null,null,null,null,0,70,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,0,0,60,30,0,0,Yes,Yes,Yes,No,50,40,0,50,0,0,0,Yes,Yes,Yes,No,20,30,0,0,0,0,0,0,0,10,0,0,0,Yes,Yes,No,No,5,5,0,10,5,0,0,Yes,Yes,No,No,10,5,0,70,0,No,110,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3264,GE,"Sensitive
+
+",68,null,null,null,null,0,0,70,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,80,0,0,Yes,Yes,Yes,Yes,55,25,0,0,0,0,0,0,0,40,10,10,0,Yes,Yes,Yes,Yes,55,5,0,0,60,0,0,Yes,Yes,Yes,Yes,55,5,0,0,0,0,0,0,0,0,70,0,0,Yes,Yes,Yes,Yes,55,15,0,0,20,0,0,No,Yes,No,No,5,15,0,0,5,No,40,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+2869,GE,"Sensitive
+
+",22,null,null,null,null,0,0,0,0,0,0,20,0,0,0,Yes,Yes,No,No,10,10,0,10,0,0,0,No,No,No,No,0,10,0,0,0,0,0,0,0,50,0,0,0,Yes,Yes,No,No,20,30,0,25,0,0,0,No,No,No,No,15,10,0,0,0,0,0,0,0,10,0,0,0,Yes,Yes,Yes,Yes,10,0,0,25,0,0,0,No,No,No,No,0,25,0,75,0,No,75,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+2832,GE,"Sensitive
+
+",64,null,null,null,null,0,0,0,0,0,0,5,60,0,0,No,Yes,Yes,Yes,65,0,0,10,15,0,0,Yes,Yes,No,Yes,20,5,0,0,0,0,0,0,0,25,50,0,0,No,Yes,Yes,No,50,25,0,15,5,0,0,Yes,No,No,No,15,5,0,0,0,0,0,0,0,35,10,0,0,No,Yes,No,No,40,5,0,10,40,0,0,No,Yes,Yes,Yes,45,5,0,75,0,No,75,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+3202,GE,"Sensitive
+
+",36,null,null,null,null,0,0,0,0,0,0,88,0,0,0,Yes,Yes,No,Yes,78,10,0,80,0,0,0,No,Yes,No,Yes,80,0,0,0,0,0,0,0,0,75,0,0,0,Yes,Yes,No,Yes,66,9,0,72,0,0,0,No,No,No,No,70,2,0,0,0,0,0,0,0,50,0,0,0,No,Yes,No,Yes,50,0,0,35,0,0,0,No,Yes,No,Yes,35,0,0,61,0,No,61,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1118,GE,MDR non XDR,30,15.24,null,null,34,10,0,0,0,0,100,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,50,0,0,20,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,No,No,No,No,20,0,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1373,GE,MDR non XDR,53,20.81,5.4,null,84,20,0,0,50,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,30,0,0,40,0,0,30,0,0,0,No,No,No,No,0,30,0,0,0,0,0,Yes,No,No,No,0,0,0,0,0,0,0,0,0,20,0,0,0,No,No,No,No,20,0,0,20,0,0,0,No,No,No,No,20,0,0,65,0,No,105,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1477,GE,"Poly DR
+
+",51,null,4.9,null,76,0,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,50,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,30,0,0,0,0,0,0,No,No,No,No,0,0,0,20,0,0,0,No,No,No,No,0,20,0,70,10,No,110,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+1730,GE,MDR non XDR,50,18.11,5.3,null,87,[NO,[NO,[NO,[NO,[NO,[NO,45,[NO,[NO,[NO,No,Yes,Yes,Yes,40,5,[NO,75,[NO,[NO,[NO,Yes,Yes,Yes,Yes,70,5,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,2,[NO,[NO,[NO,Yes,No,No,No,[NO,2,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,[NO,[NO,[NO,[NO,No,No,No,No,[NO,[NO,[NO,56,0,No,56,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+19544,UA,"Sensitive
+
+",83,17.11,null,35,102,0,0,0,0,0,0,0,2,0,0,No,No,No,No,0,2,0,0,10,0,0,Yes,No,No,No,0,8,2,0,0,0,0,0,0,0,2,0,0,No,No,No,No,0,2,0,0,6,0,0,No,No,No,No,6,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,12,0,0,No,No,No,No,8,4,0,38,0,No,38,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15943,UA,MDR non XDR,39,22.39,5.5,26,86,2,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,14,0,0,0,No,No,No,No,14,0,0,2,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,8,0,0,0,No,No,No,No,8,0,0,5,0,0,0,No,No,No,No,5,0,0,67,0,No,107,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12029,UA,"Pre-XDR
+
+",31,16.96,6,null,72,0,0,0,2,0,0,0,16,0,0,No,No,No,No,16,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,0,0,0,0,16,0,0,No,No,No,No,16,0,0,0,15,0,0,No,No,No,No,15,0,0,0,0,0,0,0,0,0,14,0,0,No,No,No,No,14,0,0,0,14,0,0,No,No,No,No,14,0,0,87,3,No,127,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+18421,UA,"Poly DR
+
+",51,20.52,18.5,null,75,0,0,0,0,5,0,8,0,0,0,No,No,No,No,0,8,0,0,5,0,0,No,No,No,No,0,5,0,0,0,0,0,0,0,6,0,0,0,No,No,No,No,0,6,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,10,0,0,0,No,No,No,No,0,10,0,0,0,0,0,No,No,No,No,0,0,0,51,0,No,91,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7904,UA,MDR non XDR,34,20.76,4.3,null,77.4,2,0,0,3,0,0,0,12,0,0,No,No,No,No,12,0,0,0,10,0,0,No,No,No,No,10,0,0,2,0,0,3,0,0,0,14,0,0,No,No,No,No,14,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,2,0,0,0,10,0,0,No,No,No,No,10,0,0,0,10,0,0,No,No,No,No,10,0,0,80,0,No,120,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6872,UA,MDR non XDR,65,18.13,5.2,null,97.8,0,0,0,0,0,0,0,8,0,0,No,No,No,No,5,3,0,0,8,0,0,No,No,No,No,8,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,3,3,0,0,5,0,0,No,No,No,No,5,0,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,3,0,0,No,No,No,No,3,0,0,34,8,No,34,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16598,UA,"Sensitive
+
+",31,18.07,5,null,54.8,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,96,0,No,96,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16245,UA,MDR non XDR,47,13.84,4.3,null,67,0,4,0,0,0,12,0,6,0,0,No,No,No,No,6,0,0,0,0,0,0,No,No,No,No,0,0,0,0,3,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,5,0,0,No,No,No,No,5,0,0,0,0,0,0,0,0,0,3,0,0,No,No,No,No,3,0,0,0,3,0,0,No,No,No,No,3,0,0,42,0,No,82,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+18236,UA,,null,null,5.1,20,95,3,0,0,0,10,0,0,0,0,0,No,No,No,No,0,0,0,0,4,0,0,No,No,No,No,4,0,0,2,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,14,0,0,No,No,No,No,10,4,0,2,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,4,0,0,No,No,No,No,4,0,0,69,0,No,109,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11782,UA,"Pre-XDR
+
+",50,17.92,4.3,34,119,0,0,0,4,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,2,6,0,0,10,0,0,Yes,No,No,No,2,6,2,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,4,0,0,No,No,No,No,0,4,0,60,0,No,100,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17267,UA,"Mono DR
+
+",50,16.91,4.9,35,105,2,0,0,2,0,0,0,6,0,0,No,No,No,No,6,0,0,0,10,0,0,No,No,No,No,8,2,0,0,0,0,2,0,0,0,12,0,0,No,No,No,No,12,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,5,0,0,No,No,No,No,5,0,0,55,0,No,95,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+17220,UA,,null,null,3.8,39,74,0,0,0,8,0,0,0,6,0,0,Yes,No,No,No,5,0,1,0,0,0,0,No,No,No,No,0,0,0,0,0,0,3,0,0,0,10,0,0,Yes,No,No,No,9,0,1,0,12,0,0,Yes,No,No,No,9,0,3,0,0,0,2,0,0,0,6,0,0,No,No,No,No,6,0,0,0,12,0,0,Yes,No,No,No,10,2,0,67,0,No,107,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16986,UA,MDR non XDR,49,19.84,3.7,24.6,99.6,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,10,6,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,8,0,0,0,No,No,No,No,0,8,0,16,0,0,0,No,No,No,No,0,16,0,88,0,No,88,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6776,UA,MDR non XDR,45,14.96,null,null,86.5,7,0,0,0,0,10,4,0,0,0,Yes,No,No,No,0,0,4,3,0,0,0,No,No,No,No,3,0,0,0,0,0,0,0,0,5,0,0,0,Yes,No,No,No,3,0,2,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,6,0,0,0,Yes,No,No,No,0,0,6,8,0,0,0,No,No,No,No,8,0,0,57,0,No,97,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7553,UA,"XDR
+
+",29,52,2.5,27,250,0,0,0,0,0,0,6,10,0,0,No,No,No,No,0,16,0,16,0,0,0,No,Yes,No,No,0,16,0,0,0,0,0,0,0,0,0,0,0,No,Yes,No,No,0,0,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,12,0,0,0,Yes,No,No,No,0,12,0,84,0,No,84,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16721,UA,"Sensitive
+
+",42,26.29,4.8,null,79.7,0,0,16,2,0,0,0,0,0,0,No,No,No,No,0,0,0,0,12,0,0,No,No,No,No,12,0,0,0,8,8,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,14,0,0,No,No,No,No,14,0,0,0,0,16,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,10,0,0,No,No,No,No,10,0,0,86,0,No,126,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16724,UA,"Sensitive
+
+",53,58,4.8,null,109.5,0,0,0,3,0,0,0,10,0,0,No,No,No,No,10,0,0,0,13,0,0,No,No,No,No,10,3,0,0,0,0,2,0,0,0,10,0,0,No,No,No,No,10,0,0,0,14,0,0,No,No,No,No,14,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,6,0,0,No,No,No,No,6,0,0,61,5,No,101,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16561,UA,MDR non XDR,36,20.55,4.6,40,62,1,0,0,2,0,0,0,7,0,0,No,No,No,No,7,0,0,0,12,0,0,No,No,No,No,10,2,0,0,0,0,2,0,0,0,12,0,0,No,No,No,No,12,0,0,0,10,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,6,0,0,No,No,No,No,6,0,0,58,0,No,98,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16681,UA,MDR non XDR,58,15.81,4.3,51,102,6,0,0,3,0,0,5,5,0,0,No,No,No,No,0,10,0,8,0,0,0,No,No,No,No,0,8,0,5,0,0,0,0,0,5,6,0,0,No,No,No,No,0,11,0,8,8,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,4,4,0,0,No,No,No,No,0,8,0,0,7,0,0,No,No,No,No,0,7,0,79,3,No,119,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9009,UA,"Pre-XDR
+
+",44,42.24,4.3,53.5,69.9,5,0,0,0,0,0,0,7,0,0,No,No,No,No,7,0,0,0,4,0,0,No,No,No,No,4,0,0,2,0,0,0,0,0,0,11,0,0,No,No,No,No,11,0,0,0,3,0,0,No,No,No,No,3,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,4,0,0,No,No,No,No,4,0,0,42,0,No,82,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16617,UA,"Mono DR
+
+",29,7.79,4.5,35.4,100,0,0,0,0,6,0,0,6,0,0,No,No,No,No,6,0,0,0,0,0,0,No,No,No,No,0,0,0,1,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,41,0,No,81,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16612,UA,MDR non XDR,41,14.48,4.5,40,101,1,0,0,3,0,0,0,12,0,0,No,No,No,No,8,4,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,1,0,0,0,10,0,0,No,No,No,No,10,0,0,0,11,0,0,No,No,No,No,11,0,0,0,0,0,0,0,0,0,3,0,0,No,No,No,No,3,0,0,0,8,0,0,No,No,No,No,8,0,0,56,0,No,96,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16549,UA,"Sensitive
+
+",44,20.57,4.2,null,62.4,0,0,0,0,10,0,6,0,0,0,No,No,No,No,0,6,0,6,0,0,0,No,No,No,No,0,6,0,0,0,0,0,0,0,8,8,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,0,8,0,0,8,0,0,No,No,No,No,0,8,0,70,0,No,110,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16521,UA,"Sensitive
+
+",51,12.51,3.3,36,77.8,0,0,0,2,0,0,0,0,0,0,No,No,No,No,0,0,0,0,14,0,0,No,No,No,No,14,0,0,2,0,0,2,0,0,0,14,0,0,No,No,No,No,14,0,0,0,14,0,0,No,No,No,No,14,0,0,0,0,0,0,0,0,0,10,0,0,No,No,No,No,10,0,0,0,16,0,0,No,No,No,No,16,0,0,74,0,Yes,114,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16516,UA,"Mono DR
+
+",50,14.2,4.9,37,106,0,0,0,0,0,0,0,2,0,0,No,No,No,No,2,0,0,0,12,0,0,No,No,No,No,10,2,0,0,0,0,0,0,0,0,3,0,0,No,No,No,No,3,0,0,0,8,0,0,Yes,No,No,No,5,2,1,0,0,0,0,0,0,0,3,0,0,No,No,No,No,3,0,0,0,8,0,0,No,No,No,No,4,4,0,48,0,No,48,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16487,UA,"Pre-XDR
+
+",44,21.05,4.6,36,100,1,0,0,1,0,0,0,7,0,0,No,No,No,No,6,0,1,0,5,0,0,No,No,No,No,4,0,1,0,0,0,0,0,0,0,10,0,0,No,No,No,No,8,0,2,0,8,0,0,No,No,No,No,6,2,0,0,0,0,0,0,0,0,3,0,0,No,No,No,No,0,3,0,0,5,0,0,No,No,No,No,4,1,0,40,0,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8827,UA,MDR non XDR,23,13.59,4.12,null,93.6,2,0,0,4,0,0,0,0,0,0,No,No,No,No,0,0,0,0,3,0,0,No,No,No,No,2,1,0,2,0,0,4,0,0,0,8,0,0,Yes,No,No,No,5,2,1,0,6,0,0,No,No,No,No,4,2,0,0,0,0,0,0,0,0,3,0,0,No,No,No,No,1,2,0,0,6,0,0,No,No,No,No,2,4,0,34,0,No,74,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9465,UA,MDR non XDR,35,21.63,4.3,null,137.1,2,0,0,4,0,0,0,10,0,0,No,No,No,No,10,0,0,0,12,0,0,No,No,No,No,10,2,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,10,0,0,No,No,No,No,8,2,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,8,0,0,No,No,No,Yes,8,0,0,58,4,Yes,98,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+16446,UA,"Pre-XDR
+
+",46,16.05,4.7,null,75,0,0,16,3,0,0,0,0,0,0,No,No,No,No,0,0,0,0,11,0,0,No,No,No,No,11,0,0,0,16,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,10,0,0,No,No,No,No,6,4,0,0,16,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,4,0,0,No,No,No,No,4,0,0,76,0,No,116,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12893,UA,MDR non XDR,41,18.71,5.1,null,57,0,0,0,2,0,0,0,0,0,0,No,No,No,No,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,0,16,2,0,0,0,0,0,0,No,No,No,No,0,0,0,0,10,0,0,No,No,No,No,10,0,0,2,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,4,0,0,No,No,No,No,4,0,0,53,0,No,93,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10066,UA,MDR non XDR,42,15.59,4.5,null,88,0,16,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,8,0,0,No,No,No,No,8,0,0,6,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,10,0,0,Yes,No,No,No,4,2,4,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,3,0,0,No,No,No,No,3,0,0,57,0,No,97,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7296,UA,"Sensitive
+
+",69,21.45,6,null,70.5,0,0,0,0,0,0,0,3,0,0,No,No,No,No,3,0,0,0,6,0,0,No,No,No,No,6,0,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,8,0,0,No,No,No,No,8,0,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,12,0,0,No,No,No,No,12,0,0,45,0,No,45,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7234,UA,"Sensitive
+
+",47,21.89,5.4,null,79.4,3,0,0,0,0,10,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,2,0,0,4,0,0,0,10,0,0,No,No,No,No,6,4,0,0,4,0,0,No,No,No,No,4,0,0,0,0,0,0,0,0,0,10,0,0,No,No,No,No,6,4,0,0,4,0,0,No,No,No,No,4,0,0,77,0,No,117,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7268,UA,"Sensitive
+
+",56,17.04,6.2,null,77.7,4,0,0,5,0,0,0,5,0,0,No,No,No,No,5,0,0,0,0,0,0,No,No,No,No,0,0,0,4,0,0,5,0,0,0,11,0,0,No,No,No,No,11,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,0,0,0,No,No,No,No,0,0,0,67,0,No,107,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10337,UA,MDR non XDR,37,20.08,3.8,36,92,2,0,0,0,0,0,0,14,0,0,No,No,No,No,14,0,0,0,14,0,0,No,No,No,No,14,0,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,10,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,16,0,0,No,No,No,No,16,0,0,68,0,No,108,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15947,UA,"Pre-XDR
+
+",38,22.37,4.2,40,106,0,0,0,0,0,10,0,6,0,0,No,No,No,No,6,0,0,0,0,0,0,No,No,No,No,0,0,0,2,0,0,0,8,0,0,14,0,0,No,No,No,No,14,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,2,0,0,No,No,No,No,2,0,0,0,6,0,0,No,No,No,No,6,0,0,59,0,No,99,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15925,UA,MDR non XDR,83,15.7,4.3,36,80,0,0,0,0,0,0,0,10,0,0,Yes,No,No,No,6,2,2,0,10,0,0,Yes,No,No,No,8,0,2,0,0,0,0,0,0,0,14,0,0,No,No,No,No,14,0,0,0,14,0,0,No,No,No,No,12,0,2,0,0,0,0,0,0,0,14,0,0,No,No,No,No,14,0,0,0,14,0,0,No,No,No,No,14,0,0,76,0,No,76,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15891,UA,MDR non XDR,46,18.65,4.7,18,78.9,0,0,0,0,0,0,10,6,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,10,6,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,8,0,0,0,No,No,No,No,0,8,0,8,0,0,0,No,No,No,No,0,8,0,80,0,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7737,UA,"XDR
+
+",32,22.23,4,39,85.3,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,16,0,0,No,No,No,No,16,0,0,0,6,0,0,0,0,0,3,0,0,No,No,No,No,3,0,0,0,16,0,0,No,No,No,No,16,0,0,0,0,0,0,0,0,0,10,0,0,No,No,No,No,10,0,0,0,14,0,0,No,No,No,No,14,0,0,69,0,No,109,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6917,UA,MDR non XDR,55,19.61,4.5,34,97.6,3,0,0,5,0,0,7,0,0,0,Yes,No,No,No,5,0,2,0,7,0,0,Yes,No,No,No,5,0,2,3,0,0,0,5,0,3,0,0,0,Yes,No,No,No,3,0,0,0,5,0,0,Yes,No,No,No,4,0,1,0,0,0,0,0,0,7,0,0,0,Yes,No,No,No,7,0,0,4,0,0,0,Yes,No,No,No,3,0,1,74,0,No,114,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11748,UA,MDR non XDR,53,21.23,5.2,null,92.3,0,0,0,0,0,0,12,0,0,0,No,No,No,No,11,1,0,14,0,0,0,No,No,No,No,14,0,0,0,0,0,0,0,0,10,0,0,0,No,No,No,No,10,0,0,14,0,0,0,No,No,No,No,14,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,16,0,0,0,No,No,No,No,16,0,0,80,0,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6865,UA,MDR non XDR,35,18.42,null,null,81.8,0,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,3,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,64,0,No,104,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15802,UA,MDR non XDR,54,15.49,5.9,29.44,54.32,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,8,8,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,8,0,0,0,No,No,No,No,0,8,0,8,8,0,0,No,No,No,No,0,16,0,88,0,No,88,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15743,UA,"Pre-XDR
+
+",45,20.23,4.1,null,98,2,0,0,0,0,0,0,2,0,0,No,No,No,No,2,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,14,0,0,No,No,No,No,11,3,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,2,0,0,No,No,No,No,2,0,0,0,0,0,0,No,No,No,No,0,0,0,65,0,No,105,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12025,UA,"Pre-XDR
+
+",33,22.22,4.9,42,86,0,0,0,1,0,0,0,10,0,0,Yes,No,No,No,6,2,2,0,9,0,0,No,No,No,No,5,4,0,2,0,0,0,0,0,0,13,0,0,No,No,No,No,10,3,0,0,14,0,0,No,No,No,No,10,4,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,8,0,0,No,No,No,No,8,0,0,61,0,No,101,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9446,UA,MDR non XDR,37,23.81,5.32,48.1,115.7,2,0,0,2,0,0,0,10,0,0,No,No,No,No,10,0,0,0,12,0,0,No,No,No,No,12,0,0,4,0,0,0,0,0,0,10,0,0,No,No,No,No,0,10,0,0,14,0,0,No,No,No,No,14,0,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,2,0,0,No,No,No,No,2,0,0,64,2,No,104,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6048,UA,"Mono DR
+
+",64,25.31,4.6,null,null,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,16,0,0,0,No,No,No,No,8,8,0,0,0,0,0,0,0,8,0,0,0,No,No,No,No,4,4,0,5,0,0,0,No,No,No,No,3,2,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,8,8,0,10,0,0,0,No,No,No,No,5,5,0,80,0,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15592,UA,MDR non XDR,21,16.65,4.5,null,73,3,0,0,4,0,0,0,13,0,0,No,No,No,No,13,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,2,0,0,0,16,0,0,No,No,No,No,16,0,0,0,10,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,0,5,0,0,No,No,No,No,5,0,0,0,8,0,0,No,No,No,No,8,0,0,73,0,No,113,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15536,UA,"Pre-XDR
+
+",64,18.47,3.9,null,87,0,0,0,2,0,0,0,2,0,0,No,No,No,No,0,2,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,2,0,0,0,1,0,0,Yes,No,No,No,0,0,1,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,2,0,0,No,No,No,No,0,2,0,0,3,0,0,No,No,No,No,3,0,0,28,0,No,68,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11795,UA,"Sensitive
+
+",33,23.72,5.3,null,84,0,0,0,3,0,0,Mediu,4,0,0,No,No,No,No,4,0,0,0,10,0,0,No,No,No,No,10,0,0,0,0,0,2,0,0,0,8,0,0,No,No,No,No,8,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,8,0,0,No,No,No,No,8,0,0,45,0,No,85,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10223,UA,"Sensitive
+
+",31,17.51,5.4,null,74.4,2,0,0,4,0,0,0,10,0,0,No,No,No,No,10,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,0,0,0,0,12,0,0,No,No,No,No,12,0,0,0,9,0,0,No,No,No,No,9,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,8,0,0,No,No,No,No,8,0,0,63,0,No,103,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15322,UA,"Pre-XDR
+
+",28,16.33,3.7,null,78,3,0,0,0,0,9,11,0,0,0,No,No,No,No,11,0,0,0,6,0,0,No,No,No,No,6,0,0,0,0,0,3,0,0,15,0,0,0,No,No,No,No,15,0,0,0,13,0,0,No,No,No,No,13,0,0,0,0,0,0,0,0,14,0,0,0,No,No,No,No,14,0,0,0,16,0,0,No,No,No,No,16,0,0,89,0,No,129,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13258,UA,"Pre-XDR
+
+",40,19.27,5.43,28.6,42.13,0,0,0,0,0,0,10,6,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,11,5,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,96,0,No,96,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10917,UA,MDR non XDR,41,23.88,5.2,36,76,2,0,0,0,0,0,0,10,0,0,No,No,No,No,6,4,0,10,4,0,0,No,No,No,No,10,4,0,2,0,0,0,0,0,0,14,0,0,No,No,No,No,8,6,0,12,4,0,0,No,No,No,No,12,4,0,4,0,0,0,0,0,0,10,0,0,No,No,No,No,6,4,0,10,0,0,0,No,No,No,No,10,0,0,82,10,Yes,122,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+15202,UA,MDR non XDR,63,17.16,4.8,23.33,57.12,3,0,0,0,0,0,5,0,0,0,No,No,No,No,0,5,0,10,0,0,0,No,No,No,No,0,10,0,0,0,0,0,0,0,8,8,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,8,0,0,0,No,No,No,No,0,8,0,16,0,0,0,No,No,No,No,0,16,0,82,0,No,122,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11019,UA,MDR non XDR,21,19.28,4,31.97,100,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,96,0,No,96,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8377,UA,"Mono DR
+
+",30,15.83,5.1,null,75.4,0,0,10,3,0,0,0,3,0,0,No,No,No,No,3,0,0,0,8,0,0,No,No,No,No,8,0,0,3,0,0,1,0,0,0,12,0,0,No,No,No,No,12,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,0,0,0,0,10,0,0,No,No,No,No,10,0,0,0,8,0,0,No,No,No,No,8,0,0,70,0,No,110,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14889,UA,"Pre-XDR
+
+",37,16.59,4.8,29.4,66.09,0,0,14,0,0,0,0,0,0,0,No,No,No,No,0,0,0,8,8,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,8,8,0,0,No,No,No,No,0,16,0,8,8,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,6,10,0,0,No,No,No,No,0,16,0,8,8,0,0,No,No,No,No,0,16,0,96,0,No,136,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14842,UA,,null,null,5.3,null,77,0,0,0,0,0,0,0,14,0,0,No,No,No,Yes,10,4,0,0,14,0,0,Yes,No,No,No,4,6,4,0,0,0,0,0,0,0,16,0,0,No,No,No,No,12,4,0,0,12,0,0,Yes,No,No,No,7,4,1,0,0,0,0,0,0,0,9,0,0,No,No,No,No,9,0,0,0,4,0,0,No,No,No,No,0,4,0,69,0,No,69,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14841,UA,MDR non XDR,36,15.63,5.1,null,69,0,0,0,0,0,0,16,0,0,0,No,No,No,No,16,0,0,16,0,0,0,No,No,No,No,16,0,0,0,0,0,0,0,0,14,0,0,0,No,No,No,No,14,0,0,16,0,0,0,No,No,No,No,16,0,0,0,0,0,0,0,0,14,0,0,0,No,No,No,No,14,0,0,16,0,0,0,No,No,No,No,16,0,0,92,2,No,92,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7413,UA,MDR non XDR,48,21.89,5.17,null,113.7,2,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,8,0,0,No,No,No,No,6,2,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,0,4,0,0,8,0,0,No,No,No,No,8,0,0,0,0,0,0,0,0,0,10,0,0,No,No,No,No,6,4,0,0,12,0,0,No,No,No,No,8,4,0,48,0,No,88,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14712,UA,"Sensitive
+
+",56,21.39,4.7,40.2,64.9,0,0,0,3,0,0,0,10,0,0,No,No,No,No,8,2,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,2,0,0,0,12,0,0,No,No,No,No,8,4,0,0,8,0,0,No,No,No,No,6,2,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,2,0,0,No,No,No,No,2,0,0,30,0,No,70,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6182,UA,MDR non XDR,34,21.08,5,null,null,0,0,0,0,0,0,8,8,0,0,No,No,No,No,0,16,0,14,0,0,0,No,No,No,No,0,14,0,0,0,0,0,0,0,12,4,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,8,0,0,0,No,No,No,No,0,8,0,8,0,0,0,No,No,No,No,0,8,0,78,0,No,78,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6072,UA,MDR non XDR,43,60,4.8,null,null,0,0,0,0,0,0,16,0,0,0,No,No,No,Yes,16,0,0,16,0,0,0,No,No,No,Yes,16,0,0,0,0,0,0,0,0,16,0,0,0,No,No,No,Yes,16,0,0,16,0,0,0,No,No,No,Yes,16,0,0,0,0,0,0,0,0,16,0,0,0,No,No,No,Yes,16,0,0,16,0,0,0,No,No,No,Yes,16,0,0,99,0,No,99,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6047,UA,MDR non XDR,37,16.73,5.3,null,null,0,0,0,0,0,0,0,16,0,0,No,No,No,No,6,10,0,16,0,0,0,No,No,No,No,8,8,0,0,0,0,0,0,0,0,3,0,0,No,No,No,No,1,2,0,16,0,0,0,No,No,No,No,8,8,0,0,0,0,0,0,0,0,12,0,0,No,No,No,No,4,8,0,8,0,0,0,No,No,No,No,4,4,0,84,0,No,84,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5712,UA,MDR non XDR,32,14.2,3.3,null,null,0,0,0,0,0,0,17,0,0,0,No,No,No,No,8,9,0,16,0,0,0,No,No,No,No,6,10,0,0,0,0,0,0,0,14,3,0,0,No,No,No,No,7,10,0,17,0,0,0,No,No,No,No,7,10,0,0,0,0,0,0,0,14,0,0,0,No,No,No,No,6,8,0,14,0,0,0,No,No,No,No,5,9,0,95,0,No,95,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+14510,UA,"Mono DR
+
+",58,20.66,4.4,null,112,0,0,0,0,0,0,12,0,0,0,No,No,No,No,0,12,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,8,0,0,0,No,No,No,No,0,8,0,10,0,0,0,No,No,No,No,0,10,0,70,0,No,70,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13499,UA,"Pre-XDR
+
+",42,57,42,28,81,2,0,0,2,0,0,10,0,0,0,No,No,No,No,10,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,10,0,0,0,No,No,No,No,10,0,0,10,0,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,4,0,0,0,No,No,No,No,4,0,0,6,0,0,0,No,No,No,No,6,0,0,54,25,Yes,94,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13673,UA,"Mono DR
+
+",35,21.16,4.6,null,90.8,0,0,0,0,0,0,10,6,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,96,0,No,96,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13620,UA,"Mono DR
+
+",39,19.83,4.6,null,91,0,0,0,0,0,0,8,8,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,8,0,0,0,No,No,No,No,0,8,0,8,0,0,0,No,No,No,No,0,8,0,80,0,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13187,UA,"Sensitive
+
+",46,23.88,5.4,null,81.6,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,16,0,0,Yes,No,No,No,9,6,1,0,0,0,0,0,0,10,0,0,0,No,No,No,No,10,0,0,0,16,0,0,No,No,No,No,16,0,0,0,0,0,0,0,0,3,0,0,0,No,No,No,No,3,0,0,0,10,0,0,No,No,No,No,10,0,0,63,10,Yes,63,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11759,UA,MDR non XDR,54,17.71,4.7,25.9,73.5,2,0,0,2,0,0,0,12,0,0,Yes,No,No,No,10,0,2,12,2,0,0,Yes,No,No,No,12,0,2,4,0,0,2,0,0,0,8,0,0,No,No,No,No,8,0,0,11,0,0,0,No,No,No,No,11,0,0,3,0,0,0,0,0,0,13,0,0,No,No,No,No,7,6,0,16,0,0,0,No,No,No,No,10,6,0,90,0,No,130,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13487,UA,"Sensitive
+
+",53,21.8,5.1,null,99.7,2,0,0,2,0,0,0,10,0,0,No,No,No,No,8,2,0,0,12,0,0,No,No,No,No,9,3,0,2,0,0,1,0,0,8,0,0,0,No,No,No,No,8,0,0,0,9,0,0,No,No,No,No,8,1,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,5,0,0,No,No,No,No,5,0,0,57,0,No,97,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9953,UA,"XDR
+
+",50,19.82,4,34.7,101.9,0,0,0,0,0,0,0,2,0,0,No,No,No,No,2,0,0,0,10,0,0,No,No,No,No,10,0,0,0,0,0,0,0,0,0,10,0,0,No,No,No,No,10,0,0,0,8,0,0,No,No,No,No,8,0,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,4,0,0,No,No,No,No,4,0,0,42,0,No,42,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13469,UA,MDR non XDR,43,16.56,4.4,39.7,94.1,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,8,0,0,0,No,No,No,No,0,8,0,8,0,0,0,No,No,No,No,0,8,0,80,0,No,80,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12830,UA,MDR non XDR,36,17.53,5.03,null,86.7,0,0,0,2,0,0,3,0,0,0,Yes,No,No,No,0,0,3,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,8,0,0,Yes,No,No,No,6,0,2,0,3,0,0,No,No,No,No,3,0,0,0,0,0,0,0,0,0,2,0,0,No,No,No,No,2,0,0,0,2,0,0,No,No,No,No,2,0,0,52,0,No,92,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7672,UA,"Pre-XDR
+
+",64,20.9,4.3,43,102,6,0,0,5,0,0,0,0,0,0,No,No,No,No,0,0,0,0,3,0,0,No,No,No,No,3,0,0,3,0,0,2,0,0,0,3,0,0,No,No,No,No,3,0,0,0,8,0,0,No,No,No,No,6,2,0,0,0,0,0,0,0,0,5,0,0,No,No,No,No,5,0,0,0,6,0,0,No,No,No,No,6,0,0,49,0,No,89,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13284,UA,MDR non XDR,74,68,4,34.2,93.1,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,Yes,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,96,0,No,96,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13233,UA,"XDR
+
+",31,16.87,null,null,71,0,0,0,0,0,0,8,0,0,0,No,No,No,No,0,8,0,16,0,0,0,No,No,No,No,0,16,0,4,0,0,0,0,0,12,0,0,0,No,No,No,No,0,12,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,10,0,0,0,No,No,No,No,0,10,0,8,0,0,0,No,No,No,No,0,8,0,74,0,No,114,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13220,UA,MDR non XDR,42,20.42,4.5,null,82,0,0,0,0,0,0,Mediu,0,0,0,No,No,No,No,0,16,0,0,16,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,0,16,0,16,0,0,0,No,No,No,No,0,16,0,96,0,No,96,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13207,UA,"XDR
+
+",44,18.84,5.29,null,81.9,0,0,0,0,0,0,0,14,0,0,Yes,No,No,No,12,0,2,0,0,0,0,No,No,No,No,0,0,0,2,0,0,2,0,0,0,0,0,0,No,No,No,No,0,0,0,0,10,0,0,No,No,No,No,8,2,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,4,0,0,No,No,No,No,4,0,0,54,0,No,94,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13157,UA,,null,null,6.6,27,75,0,0,0,2,0,0,0,10,0,0,No,No,No,No,10,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,2,0,0,0,10,0,0,No,No,No,No,10,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,0,0,0,No,No,No,No,0,0,0,58,10,No,98,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13128,UA,MDR non XDR,35,18.41,4.1,null,82,3,0,0,2,2,0,0,12,0,0,No,No,No,No,12,0,0,0,8,0,0,No,No,No,No,8,0,0,3,0,0,3,0,0,0,3,0,0,No,No,No,No,3,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,6,0,0,No,No,No,No,6,0,0,68,0,No,108,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9010,UA,MDR non XDR,40,69,4.2,46,99.2,0,0,0,1,0,0,0,10,0,0,No,No,No,No,10,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,0,0,0,0,16,0,0,No,No,No,No,16,0,0,0,16,0,0,No,No,No,No,16,0,0,0,0,0,0,0,0,0,14,0,0,No,No,No,No,14,0,0,0,8,0,0,No,No,No,No,8,0,0,77,15,No,117,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13071,UA,MDR non XDR,40,17.75,3.6,29.9,62.5,2,0,0,3,0,0,0,11,0,0,No,No,No,No,6,4,1,0,13,0,0,No,No,No,No,10,3,0,0,0,0,2,0,0,0,14,0,0,Yes,No,No,No,8,4,2,0,12,0,0,Yes,No,No,No,8,3,1,0,0,0,0,0,0,0,5,0,0,No,No,No,No,5,0,0,0,2,0,0,Yes,No,No,No,0,0,2,70,0,No,110,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+11125,UA,MDR non XDR,57,19.62,4.6,33.7,97,0,6,0,0,0,0,0,10,0,0,No,No,No,No,10,0,0,0,9,0,0,No,No,No,No,9,0,0,2,0,0,0,0,0,0,10,0,0,No,No,No,No,10,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,6,0,0,No,No,No,No,6,0,0,59,0,No,99,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12189,UA,MDR non XDR,42,16.96,4.48,42.8,107.2,2,0,0,3,5,0,0,6,0,0,No,No,No,No,3,3,0,0,3,0,0,No,No,No,No,0,3,0,0,0,0,2,8,0,0,6,0,0,No,No,No,No,6,0,0,0,6,0,0,No,No,No,No,3,3,0,0,0,0,0,0,0,0,5,0,0,No,No,No,No,5,0,0,0,5,0,0,No,No,No,No,0,5,0,51,0,No,91,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12134,UA,MDR non XDR,44,17.48,4.02,35,121.6,4,0,0,3,0,0,0,7,0,0,No,No,No,No,5,2,0,0,11,0,0,No,No,No,No,7,4,0,3,0,0,3,0,0,0,8,0,0,No,No,No,No,8,0,0,0,9,0,0,No,No,No,No,6,3,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,6,0,0,No,No,No,No,6,0,0,60,0,No,100,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12133,UA,MDR non XDR,66,19.63,5.5,36.9,165,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,0,0,0,No,No,No,No,0,0,0,54,0,No,54,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13014,UA,"Sensitive
+
+",40,14.69,4.6,null,110,0,0,0,1,0,0,0,2,0,0,No,No,No,No,0,2,0,0,6,0,0,No,No,No,No,3,3,0,4,0,0,0,0,0,0,10,0,0,No,No,No,No,0,10,0,0,14,0,0,No,No,No,No,10,4,0,2,0,0,0,0,0,0,6,0,0,No,No,No,No,2,4,0,0,10,0,0,No,No,No,No,10,0,0,63,0,No,103,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+13012,UA,MDR non XDR,38,22.41,5.5,null,110,0,0,0,0,0,0,14,0,0,0,No,No,No,No,10,4,0,14,0,0,0,No,No,No,No,8,6,0,0,0,0,0,0,0,0,16,0,0,No,No,No,No,10,6,0,16,0,0,0,No,No,No,No,4,12,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,3,0,0,0,No,No,No,No,3,0,0,71,0,No,71,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8372,UA,MDR non XDR,47,16.77,5.1,33.1,63.9,3,0,0,4,0,0,3,0,0,0,No,No,No,No,3,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,4,0,0,0,3,0,0,No,No,No,No,3,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,4,0,0,No,No,No,No,4,0,0,54,0,No,94,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9960,UA,"Sensitive
+
+",36,21.56,5.46,31,74.8,0,0,0,1,0,0,0,14,0,0,No,No,No,No,14,0,0,0,15,0,0,No,No,No,No,15,0,0,0,0,0,1,0,0,0,14,0,0,No,No,No,No,14,0,0,0,15,0,0,No,No,No,No,15,0,0,0,0,0,0,0,0,0,10,0,0,No,No,No,No,10,0,0,0,6,0,0,No,No,No,No,6,0,0,74,3,No,114,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10067,UA,"Sensitive
+
+",57,16.41,4.6,null,89,0,0,0,0,0,0,0,10,0,0,No,No,No,No,10,0,0,0,16,0,0,No,No,No,No,16,0,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,16,0,0,No,No,No,No,16,0,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,16,0,0,No,No,No,No,16,0,0,58,0,No,58,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10071,UA,"Sensitive
+
+",31,20.15,5.4,null,89.3,2,0,0,5,0,0,0,10,0,0,No,No,No,No,10,0,0,0,11,0,0,No,No,No,No,11,0,0,0,0,0,8,0,0,0,8,0,0,No,No,No,No,8,0,0,0,8,0,0,No,No,No,No,8,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,8,0,0,No,No,No,No,8,0,0,60,0,No,100,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+6862,UA,MDR non XDR,56,21.83,null,null,77.2,3,0,0,4,0,0,2,0,0,0,No,No,No,No,2,0,0,2,0,0,0,Yes,No,No,No,0,0,2,7,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,4,0,0,0,Yes,No,No,No,0,0,4,2,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,8,0,0,0,Yes,No,No,No,0,0,8,72,0,No,112,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9546,UA,"Sensitive
+
+",25,17.26,4.7,null,117.1,1,0,0,7,0,0,0,7,0,0,Yes,No,No,No,5,0,2,0,4,0,0,Yes,No,No,No,0,2,2,0,0,0,2,0,0,0,1,0,0,Yes,No,No,No,0,0,1,0,8,0,0,Yes,No,No,No,2,2,4,0,0,0,0,0,0,0,1,0,0,No,No,No,No,0,1,0,0,4,0,0,Yes,No,No,No,0,2,2,50,0,No,90,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12820,UA,"Pre-XDR
+
+",58,18.37,4.3,32,74,2,0,0,2,0,0,0,4,0,0,No,No,No,No,4,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,6,0,0,No,No,No,No,6,0,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,4,0,0,No,No,No,No,2,2,0,38,0,No,78,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7170,UA,MDR non XDR,35,19.23,4.8,null,81.7,0,0,0,3,0,0,0,8,0,0,No,No,No,No,8,0,0,0,0,0,0,No,No,No,No,0,0,0,3,0,0,3,0,0,0,0,0,0,No,No,No,No,0,0,0,0,3,0,0,No,No,No,No,3,0,0,0,0,0,2,0,0,0,10,0,0,No,No,No,No,10,0,0,0,6,0,0,No,No,No,No,6,0,0,60,0,No,100,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7295,UA,"Mono DR
+
+",51,14.93,6,null,70.7,0,0,0,2,0,0,0,12,0,0,No,No,No,No,4,8,0,0,13,0,0,No,No,No,No,13,0,0,0,0,0,0,0,0,0,14,0,0,No,No,No,No,12,2,0,0,13,0,0,No,No,No,No,13,0,0,0,0,0,0,0,0,0,3,0,0,No,No,No,No,3,0,0,0,10,0,0,No,No,No,No,10,0,0,69,0,No,109,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+5788,UA,MDR non XDR,40,19.23,3.7,null,null,0,0,0,0,0,0,6,10,0,0,No,No,No,No,0,16,0,8,8,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,0,16,0,0,No,No,No,No,0,16,0,8,8,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,12,4,0,0,No,No,No,No,0,16,0,12,4,0,0,No,No,No,No,0,16,0,96,0,No,96,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+4567,UA,MDR non XDR,54,20.2,4.3,null,null,0,0,0,0,0,12,16,0,0,0,No,No,No,No,6,10,0,4,0,0,0,No,No,No,No,4,0,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,7,9,0,12,0,0,0,No,No,No,No,6,6,0,0,0,0,0,0,0,16,0,0,0,No,No,No,No,8,8,0,16,0,0,0,No,No,No,No,8,8,0,92,0,No,132,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12865,UA,MDR non XDR,39,21.3,5.3,29.3,null,3,0,0,1,0,0,0,6,0,0,No,No,No,No,6,0,0,0,3,0,0,No,No,No,No,3,0,0,0,0,0,2,0,0,0,8,0,0,No,No,No,No,4,4,0,0,8,0,0,No,No,No,No,2,6,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,6,0,0,No,No,No,No,6,0,0,51,0,No,91,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12849,UA,MDR non XDR,31,19.92,5,null,79,3,0,0,3,0,0,13,0,0,0,No,No,No,No,13,0,0,13,0,0,0,No,No,No,No,13,0,0,2,0,0,2,0,0,13,0,0,0,No,No,No,No,13,0,0,13,0,0,0,No,No,No,No,13,0,0,0,0,0,0,0,0,10,0,0,0,No,No,No,No,10,0,0,10,0,0,0,No,No,No,No,10,0,0,14,0,No,54,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+10418,UA,MDR non XDR,32,18.79,4.69,null,89.8,2,0,0,0,0,0,0,10,0,0,No,No,No,No,8,2,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,10,0,0,No,No,No,No,4,6,0,0,14,0,0,No,No,No,No,10,4,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,10,0,0,No,No,No,No,5,5,0,70,0,No,110,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8831,UA,MDR non XDR,29,17.81,4.45,null,125,4,0,0,8,0,0,0,5,0,0,No,No,No,No,5,0,0,0,8,0,0,No,No,No,No,8,0,0,2,0,0,3,0,0,0,0,0,0,No,No,No,No,0,0,0,0,11,0,0,No,No,No,No,11,0,0,2,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,8,0,0,No,No,No,No,8,0,0,81,0,No,121,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8830,UA,MDR non XDR,58,26.47,4.8,null,103.2,0,0,0,0,0,0,0,14,0,0,No,No,No,No,10,4,0,0,3,0,0,No,No,No,No,3,0,0,2,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,8,0,0,No,No,No,No,8,0,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,3,0,0,No,No,No,No,3,0,0,44,0,No,84,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8829,UA,MDR non XDR,46,20.96,4.12,36.7,103.8,3,0,0,3,0,0,0,11,0,0,No,No,No,No,8,3,0,0,13,0,0,No,No,No,No,10,3,0,2,0,0,0,0,0,0,9,0,0,No,No,No,No,9,0,0,0,16,0,0,No,No,No,No,12,4,0,0,0,0,0,0,0,0,6,0,0,No,No,No,No,6,0,0,0,6,0,0,No,No,No,No,6,0,0,69,0,No,109,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7897,UA,MDR non XDR,28,13.06,5.53,29.3,87.7,0,0,16,0,0,16,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,8,0,0,0,0,0,8,0,0,Yes,No,No,No,5,0,3,0,14,0,0,No,No,No,No,8,6,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,8,0,0,No,No,No,No,8,0,0,84,0,No,124,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7896,UA,MDR non XDR,40,24.06,4.25,null,109,2,0,0,3,0,0,0,12,0,0,Yes,No,No,No,10,0,2,0,12,0,0,Yes,No,No,No,6,4,2,0,0,0,0,0,0,0,8,0,0,No,No,No,No,5,3,0,0,8,0,0,Yes,No,No,No,6,0,2,0,0,0,0,0,0,0,5,0,0,Yes,No,No,No,0,3,2,0,3,0,0,Yes,No,No,No,0,0,3,53,0,No,93,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7693,UA,MDR non XDR,48,18.9,3.66,38.1,90.2,5,0,0,0,0,0,0,5,0,0,No,No,No,No,5,0,0,0,6,0,0,No,No,No,No,6,0,0,0,0,0,0,0,0,0,10,0,0,No,No,No,No,10,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,3,0,0,No,No,No,No,3,0,0,45,0,No,85,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7692,UA,MDR non XDR,36,17.76,4.5,47.1,80.4,2,0,0,2,0,0,0,14,0,0,No,No,No,No,14,0,0,0,14,0,0,No,No,No,No,14,0,0,3,0,0,0,0,0,0,12,0,0,No,No,No,No,12,0,0,0,14,0,0,No,No,No,No,14,0,0,0,0,0,0,0,0,0,14,0,0,No,No,No,No,14,0,0,0,16,0,0,No,No,No,No,16,0,0,91,0,No,131,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7400,UA,MDR non XDR,43,22.99,5,null,114,0,0,0,0,0,0,0,3,0,0,No,No,No,No,0,3,0,0,5,0,0,No,No,No,No,3,2,0,0,0,0,0,0,0,0,4,0,0,No,No,No,No,4,0,0,0,8,0,0,No,No,No,No,4,4,0,0,0,0,0,0,0,0,1,0,0,No,No,No,No,0,1,0,0,2,0,0,No,No,No,No,2,0,0,23,0,No,23,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+7313,UA,MDR non XDR,41,19.38,4.3,null,109.8,2,0,0,2,0,0,0,5,0,0,No,No,No,No,5,0,0,0,0,0,0,No,No,No,No,0,0,0,2,0,0,2,0,0,0,0,0,0,No,No,No,No,0,0,0,0,12,0,0,No,No,No,No,10,2,0,0,0,0,0,0,0,5,0,0,0,No,No,No,No,5,0,0,0,10,0,0,No,No,No,No,10,0,0,62,0,No,102,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+9436,UA,MDR non XDR,42,14.86,4.85,30.4,95.8,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,10,0,0,No,No,No,No,6,4,0,3,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,10,0,0,No,No,No,No,6,4,0,3,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,6,0,0,No,No,No,No,6,0,0,62,0,No,102,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12697,UA,"Pre-XDR
+
+",40,17.82,5.6,null,null,4,0,0,3,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,3,0,0,3,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,73,0,No,113,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12729,UA,"XDR
+
+",41,17.53,3.8,33.5,58.9,0,0,0,1,0,0,0,6,0,0,No,No,No,No,6,0,0,0,13,0,0,No,No,No,No,10,3,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,14,0,0,No,No,No,No,10,4,0,0,0,0,0,0,0,0,8,0,0,No,No,No,No,8,0,0,0,10,0,0,No,No,No,No,10,0,0,64,2,No,104,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12726,UA,MDR non XDR,44,16.9,4.4,32.6,82.7,0,0,0,0,0,0,0,8,0,0,Yes,No,No,No,3,3,2,0,4,0,0,Yes,No,No,No,3,0,1,2,0,0,0,0,0,0,14,0,0,Yes,No,No,No,6,6,2,0,14,0,0,Yes,No,No,No,8,4,2,0,0,0,0,0,0,0,3,0,0,No,No,No,No,0,3,0,0,3,0,0,No,No,No,No,0,3,0,48,0,No,88,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+8800,UA,"Sensitive
+
+",45,null,3.9,null,66.1,0,0,0,0,0,0,6,10,0,0,No,No,No,No,0,16,0,8,8,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,8,8,0,0,No,No,No,No,0,16,0,6,10,0,0,No,No,No,No,0,16,0,0,0,0,0,0,0,0,12,0,0,No,No,No,No,0,12,0,10,6,0,0,No,No,No,No,0,16,0,92,0,No,92,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12647,UA,,null,null,4.2,36,82,0,4,0,0,0,9,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,No,No,No,No,0,0,0,0,0,0,0,0,0,0,10,0,0,No,No,No,No,10,0,0,0,12,0,0,No,No,No,No,12,0,0,0,0,0,0,0,0,0,3,0,0,No,No,No,No,3,0,0,0,2,0,0,No,No,No,No,2,0,0,54,0,No,94,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+12646,UA,MDR non XDR,65,19.92,4.3,38,75,0,0,0,0,4,0,0,6,0,0,No,No,No,No,6,0,0,0,10,0,0,Yes,No,No,No,8,0,2,0,0,0,0,0,0,0,10,0,0,No,No,No,No,6,2,2,0,14,0,0,Yes,No,No,No,12,0,2,0,0,0,0,0,0,0,3,0,0,No,No,No,No,0,3,0,0,4,0,0,No,No,No,No,4,0,0,51,0,No,91,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
