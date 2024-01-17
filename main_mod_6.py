@@ -9,7 +9,7 @@ import csv
 delay = 10
 stability_delay = 0
 offsetMode = True
-offsetValue = 1
+offsetValue = 21
 newFile = False
 includeImage = True
 
@@ -172,7 +172,7 @@ def containsBlack(coordinates):
 def containsWhite(coordinates):
     cap = ImageGrab.grab(bbox = coordinates)
     cap = cv2.resize(nm.array(cap), None, fx=1.8, fy=1.8, interpolation=cv2.INTER_CUBIC)
-    not_black_pixels = nm.sum(cap != 1)		# CAUTION : cap != 1
+    not_black_pixels = nm.sum(cap != 0)		# CAUTION : cap != 1
     if (not_black_pixels == 0):
         return False
     else:
