@@ -1,2 +1,2 @@
 https://data.tbportals.niaid.nih.gov/
-https://data.tbportals.niaid.nih.gov/cases?provider=Region+23&_take=21&_skip=819
+https://data.tbportals.niaid.nih.gov/cases?provider=Region+27&_take=21&_skip=42

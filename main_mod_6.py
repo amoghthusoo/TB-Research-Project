@@ -9,7 +9,7 @@ import csv
 delay = 10
 stability_delay = 0
 offsetMode = True
-offsetValue = 21
+offsetValue = 1
 newFile = False
 includeImage = True
 
@@ -1237,7 +1237,8 @@ def case_details():
 			# 	pass
 			
 			if (	("CR" in imToString(coOrdDict["modality1"]) or 
-	   				"XC" in imToString(coOrdDict["modality1"])) and 
+	   				"XC" in imToString(coOrdDict["modality1"]) or
+					"DX" in imToString(coOrdDict["modality1"])) and 
 					containsBlack(coOrdDict["hasReport1"])):
 				pag.press("tab", presses = 13)
 				sleep(delay/10)
@@ -1272,7 +1273,8 @@ def case_details():
 					halt_case_details()
 
 			elif (	("CR" in imToString(coOrdDict["modality2"]) or 
-		 			"XC" in imToString(coOrdDict["modality2"])) and 
+		 			"XC" in imToString(coOrdDict["modality2"]) or 
+					"DX" in imToString(coOrdDict["modality2"])) and 
 					containsBlack(coOrdDict["hasReport2"])):
 				pag.press("tab", presses = 14)
 				sleep(delay/10)
@@ -1305,7 +1307,8 @@ def case_details():
 					halt_case_details()
 
 			elif (	("CR" in imToString(coOrdDict["modality3"]) or
-		 			"XC" in imToString(coOrdDict["modality3"])) and 
+		 			"XC" in imToString(coOrdDict["modality3"]) or
+					"DX" in imToString(coOrdDict["modality3"])) and 
 		 			containsBlack(coOrdDict["hasReport3"])):
 				pag.press("tab", presses = 15)
 				sleep(delay/10)
@@ -1338,7 +1341,8 @@ def case_details():
 					halt_case_details()
 			
 			elif (	("CR" in imToString(coOrdDict["modality4"])  or
-		 			"XC" in imToString(coOrdDict["modality4"])) and 
+		 			"XC" in imToString(coOrdDict["modality4"]) or 
+					"DX" in imToString(coOrdDict["modality4"])) and 
 					containsBlack(coOrdDict["hasReport4"])):
 				pag.press("tab", presses = 16)
 				sleep(delay/10)
@@ -1371,7 +1375,8 @@ def case_details():
 					halt_case_details()
 			
 			elif (	("CR" in imToString(coOrdDict["modality5"]) or
-		 			"XC" in imToString(coOrdDict["modality5"])) and 
+		 			"XC" in imToString(coOrdDict["modality5"]) or
+					"DX" in imToString(coOrdDict["modality5"])) and 
 					containsBlack(coOrdDict["hasReport5"])):
 				pag.press("tab", presses = 17)
 				sleep(delay/10)
@@ -1404,7 +1409,8 @@ def case_details():
 					halt_case_details()
 
 			elif (	"CR" in imToString(coOrdDict["modality1"]) or 
-		 			"XC" in imToString(coOrdDict["modality1"])):
+		 			"XC" in imToString(coOrdDict["modality1"]) or
+					"DX" in imToString(coOrdDict["modality1"])):
 				pag.press("tab", presses = 13)
 				sleep(delay/10)
 				pag.press("enter")
@@ -1438,7 +1444,8 @@ def case_details():
 					halt_case_details()
 
 			elif (	"CR" in imToString(coOrdDict["modality2"]) or 
-		 			"XC" in imToString(coOrdDict["modality2"])):
+		 			"XC" in imToString(coOrdDict["modality2"]) or
+					"DX" in imToString(coOrdDict["modality2"])):
 				pag.press("tab", presses = 14)
 				sleep(delay/10)
 				pag.press("enter")
@@ -1470,7 +1477,8 @@ def case_details():
 					halt_case_details()
 
 			elif (	"CR" in imToString(coOrdDict["modality3"]) or
-					"XC" in imToString(coOrdDict["modality3"])):
+					"XC" in imToString(coOrdDict["modality3"]) or 
+					"DX" in imToString(coOrdDict["modality3"])):
 				pag.press("tab", presses = 15)
 				sleep(delay/10)
 				pag.press("enter")
@@ -1502,7 +1510,8 @@ def case_details():
 					halt_case_details()
 			
 			elif (	"CR" in imToString(coOrdDict["modality4"]) or 
-		 			"XC" in imToString(coOrdDict["modality4"])):
+		 			"XC" in imToString(coOrdDict["modality4"]) or 
+					"DX" in imToString(coOrdDict["modality4"])):
 				pag.press("tab", presses = 16)
 				sleep(delay/10)
 				pag.press("enter")
@@ -1534,7 +1543,8 @@ def case_details():
 					halt_case_details()
 
 			elif (	"CR" in imToString(coOrdDict["modality5"]) or 
-		 			"XC" in imToString(coOrdDict["modality5"])):
+		 			"XC" in imToString(coOrdDict["modality5"]) or 
+					"DX" in imToString(coOrdDict["modality5"])):
 				pag.press("tab", presses = 17)
 				sleep(delay/10)
 				pag.press("enter")
